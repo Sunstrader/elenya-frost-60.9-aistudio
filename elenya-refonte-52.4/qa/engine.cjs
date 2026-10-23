@@ -1,0 +1,55 @@
+const fs = require('node:fs');
+const path = require('node:path');
+const vm = require('node:vm');
+function loadEngine(root, customProps) {
+  const props = customProps || new Map();
+  const propertyStore = {getProperty:k=>props.get(k)||null,setProperty:(k,v)=>props.set(k,v),deleteProperty:k=>props.delete(k)};
+  let uuid=0;
+  const ctx = vm.createContext({console, Date, Math, JSON, PropertiesService:{getUserProperties:()=>propertyStore,getScriptProperties:()=>propertyStore}, Logger:{log:()=>{}}, Utilities:{getUuid:()=> 'qa-uuid-'+(++uuid)}});
+  const files = ['05_DevGuard.js','20_Core_Helpers.js','21_Assets.js','22_State.js','10_Triggers.js',
+    'DATABASE_Acte1.js','DATABASE_Acte2.js','DATABASE_Acte3.js','DATABASE_Acte4.js','DATABASE_Acte5.js',
+    'DATABASE_Relations.js','DATABASE_Fragments.js','DATABASE_Secondary.js','DATABASE_Endings.js','DATABASE_Misc.js',
+    'DATABASE_Index.js','DATABASE_NGPlus.js','23_Refonte.js','24_NGPlus_Ultra.js','25_NGPlus_Ultra_Visuals.js','30_SceneManager.js','50_Server_API.js','ImageReviewer_Backend.js','90_QA.js','95_NGPlus_Ultra_QA.js'];
+  for(const f of files) if(fs.existsSync(path.join(root,f))) vm.runInContext(fs.readFileSync(path.join(root,f),'utf8'),ctx,{filename:f});
+  vm.runInContext('if(typeof applyRefonte_==="function")applyRefonte_(); /* 60.2 : banc Node uniquement — alias des diagnostics devenus privés (suffixe _) pour les tests. */ if(typeof EF_DIAGNOSTICS_602_!=="undefined")EF_DIAGNOSTICS_602_.forEach(n=>{if(typeof globalThis[n+"_"]==="function")globalThis[n]=globalThis[n+"_"]}); globalThis.api = {DB, NGPLUS_DB, SceneManager, normalizeGameState, serverGetPendingScene, serverProcessChoice, serverValidateDatabase: serverValidateDatabase_, BUILD_VERSION, ELENYA_ENDING_VIDEO_IDS_V55};',ctx);
+  return {ctx,api:ctx.api,props};
+}
+
+// Moteur stateless isolé pour le serveur web : compile les scripts une fois et exécute chaque requête dans un sandbox propre sans état persistant partagé
+function createIsolatedEngine(root) {
+  const files = ['05_DevGuard.js','20_Core_Helpers.js','21_Assets.js','22_State.js','10_Triggers.js',
+    'DATABASE_Acte1.js','DATABASE_Acte2.js','DATABASE_Acte3.js','DATABASE_Acte4.js','DATABASE_Acte5.js',
+    'DATABASE_Relations.js','DATABASE_Fragments.js','DATABASE_Secondary.js','DATABASE_Endings.js','DATABASE_Misc.js',
+    'DATABASE_Index.js','DATABASE_NGPlus.js','23_Refonte.js','24_NGPlus_Ultra.js','25_NGPlus_Ultra_Visuals.js','30_SceneManager.js','50_Server_API.js','ImageReviewer_Backend.js','95_NGPlus_Ultra_QA.js'];
+  const compiled = files.filter(f=>fs.existsSync(path.join(root,f))).map(f=>new vm.Script(fs.readFileSync(path.join(root,f),'utf8'),{filename:f}));
+  const initScript = new vm.Script('if(typeof applyRefonte_==="function")applyRefonte_();');
+  // Charge une instance de référence pour les métadonnées statiques immuables (catalogue scènes, fins, musiques)
+  const ref = loadEngine(root);
+  return {
+    referenceApi: ref.api,
+    run(fnName, args, customProps) {
+      const tempProps = customProps ? new Map(customProps) : new Map();
+      const propertyStore = {getProperty:k=>tempProps.get(k)||null,setProperty:(k,v)=>tempProps.set(k,v),deleteProperty:k=>tempProps.delete(k)};
+      let uuid = 0;
+      const ctx = vm.createContext({console, Date, Math, JSON, PropertiesService:{getUserProperties:()=>propertyStore,getScriptProperties:()=>propertyStore}, Logger:{log:()=>{}}, Utilities:{getUuid:()=> 'iso-uuid-'+(++uuid)}});
+      for(const s of compiled) s.runInContext(ctx);
+      initScript.runInContext(ctx);
+      // 60.2 : le miroir Node (server.js) a déjà filtré les diagnostics ; il appelle la version privée.
+      if(typeof ctx[fnName] !== 'function' && typeof ctx[fnName+'_'] === 'function' && Array.isArray(ctx.EF_DIAGNOSTICS_602_) && ctx.EF_DIAGNOSTICS_602_.includes(fnName)) return ctx[fnName+'_'].apply(null, args);
+      if(typeof ctx[fnName] !== 'function') throw new Error('Fonction introuvable: ' + fnName);
+      return ctx[fnName].apply(null, args);
+    }
+  };
+}
+if(require.main===module){
+  const root=path.resolve(process.argv[2]||path.join(__dirname,'../project'));
+  const {api}=loadEngine(root);
+  console.log(JSON.stringify(api.serverValidateDatabase(),null,2));
+  for(const [mode,db] of [['classic',api.DB],['ngplus',api.NGPLUS_DB]]) {
+    const scenes=Object.entries(db), choices=scenes.flatMap(([id,s])=>(s.choices||[]).map(c=>({id,...c})));
+    const backgrounds=[...new Set(scenes.map(([,s])=>s.image).filter(Boolean))];
+    console.log(JSON.stringify({mode,scenes:scenes.length,choices:choices.length,withoutResponse:choices.filter(c=>!c.response).length,staticBackgrounds:backgrounds.length,ends:scenes.filter(([,s])=>s.isEnd).length}));
+    if(mode==='ngplus') console.log(scenes.map(([id,s])=>({id,title:s.title,choices:(s.choices||[]).map(c=>({key:c.key,hasResponse:!!c.response,next:c.next}))})));
+  }
+}
+module.exports={loadEngine,createIsolatedEngine};

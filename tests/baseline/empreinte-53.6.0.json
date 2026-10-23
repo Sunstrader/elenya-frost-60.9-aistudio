@@ -1,0 +1,7 @@
+{
+ "scenesClassiques": 239,
+ "scenesNGPlus": 80,
+ "empreinteStructure": "98556f751ee7a494b1272cd780b85361b087ab3c8ced95951e19fa8ea2d13d1a",
+ "empreinteTextes": "7a252d0753e78596c1796200ccb45b49c6782b08e866ded0b3042a4908d098dd",
+ "note": "Écarts 53.6.0 assumés vs 53.5.0 : romance de Séraphine (5 scènes SERAPHINE_COEUR_1 à 5, choix RELIRE dans la lettre, AIMER dans le dernier serment, 2 fins FIN_SERAPHINE_COEUR / FIN_SERAPHINE_LAME, 2 choix au carrefour), sursis de surcharge (AVERTISSEMENT_SURCHARGE, 4 choix), jauge lien_seraphine, seuil d’apparition de Séraphine élargi (seraphine_curiosite). Séquence de la sirène inchangée."
+}

@@ -1,0 +1,326 @@
+{
+ "total": 244,
+ "textes": 199,
+ "atteints": 139,
+ "non_vus_aleatoire": [
+  "LIEN_MARCHE_1 :: gs => gs.hasFlag('ton_sarcasme')",
+  "ACTE2_08_MATIN_AUBERGE :: gs => gs.hasFlag('kaelen_a_vu_refus_E')",
+  "ACTE2_10_RAVIN :: gs => gs.hasFlag('joute_intime_E')",
+  "ACTE3_01_FRONTIERE_1 :: gs => gs.hasFlag('joute_silence_O')",
+  "ACTE3_01_FRONTIERE_1 :: gs => gs.hasFlag('kaelen_libre_choisir')",
+  "ACTE3_08_MISE_AU_POINT :: gs => gs.hasFlag('romance_deferred_O_payoff')",
+  "ACTE3_08_MISE_AU_POINT :: gs => gs.hasFlag('romance_deferred_O_closed')",
+  "ACTE3_08_MISE_AU_POINT :: gs => gs.hasFlag('romance_deferred_E_closed')",
+  "ACTE3_10_ACCUEIL_CULTE_1 :: gs => gs.hasFlag('solo_choix_definitif_acte3')",
+  "ACTE3_10_ACCUEIL_CULTE_1 :: gs => gs.hasFlag('solo_oraya_dette_rendue')",
+  "ACTE3_10_ACCUEIL_CULTE_1 :: gs => gs.hasFlag('solo_oraya_limite_retrouvee')",
+  "ACTE3_10_ACCUEIL_CULTE_1 :: gs => gs.hasFlag('solo_oraya_passe_brise')",
+  "ACTE4_09_TRONE_EBENE :: gs => gs.hasFlag('seraphine_tenue')",
+  "ACTE4_05_ARRIVEE_PORTES_1 :: gs => gs.hasFlag('trio_refuse')",
+  "ACTE4_05_ARRIVEE_PORTES_1 :: gs => gs.hasFlag('veyra_defiee')",
+  "ACTE4_05_ARRIVEE_PORTES_1 :: gs => gs.hasFlag('veyra_ignoree')",
+  "ACTE4_05_ARRIVEE_PORTES_1 :: gs => gs.hasFlag('veyra_fragment_brise')",
+  "ACTE4_05_ARRIVEE_PORTES_1 :: gs => gs.hasFlag('veyra_mensonge_avoue')",
+  "ACTE4_09_TRONE_EBENE :: gs => gs.hasFlag('dette_solution_personnelle')",
+  "ACTE4_09_ISSUES_SECONDAIRES :: gs => gs.hasFlag('veyra_fin_pouvoir')",
+  "NGP_13_BRASIER :: gs => gs.hasFlag('ngplus_alistair_baiser')",
+  "NGP_13_BRASIER :: gs => gs.hasFlag('ngplus_alistair_libre')",
+  "NGP_13_BRASIER :: gs => gs.hasFlag('ngplus_sceau_source')",
+  "NG_FIN_AMOUR :: gs => gs.hasFlag('ngplus_final_cycle')",
+  "NG_FIN_AMOUR :: gs => gs.hasFlag('ngplus_final_frontiere')",
+  "NG_FIN_AMOUR :: gs => fin === 'NG_FIN_LIBERATION' && gs.hasFlag('ngplus_architecte_nomme_57')",
+  "VEYRA_PACTE :: gs => gs.hasFlag('veyra_graine_57')",
+  "VEYRA_PACTE :: gs => gs.hasFlag('veyra_question_57')",
+  "ACTE4_06_MASQUE_TOMBE_1 :: gs => gs.hasFlag('portes_ordonnees_57')",
+  "ACTE3_08_MISE_AU_POINT :: gs => possedee57_(gs)",
+  "ACTE3_08_MISE_AU_POINT :: gs => possedee57_(gs) && companionPresentO(gs)",
+  "ACTE4_09_TRONE_EBENE :: gs => possedee57_(gs) && !instable57_(gs)",
+  "ACTE4_09_ISSUES_SECONDAIRES :: gs => gs.hasFlag('veyra_egale_57')",
+  "ACTE4_09_ISSUES_SECONDAIRES :: gs => gs.hasFlag('romance_E_rompue')",
+  "ACTE4_09_TRONE_EBENE :: gs => gs.hasFlag('possession_agonie_ouverte_601')",
+  "ACTE4_08_CORRIDOR_OBSIDIENNE :: gs => gs.hasFlag('sceau_tenue_601')",
+  "ACTE4_09_TRONE_EBENE :: gs => gs.hasFlag('seraphine_separee_59') && !gs.hasFlag('seraphine_rompue_57')",
+  "ACTE4_09_TRONE_EBENE :: gs => gs.hasFlag('seraphine_conflit_repare_57')",
+  "ACTE4_09_TRONE_EBENE :: gs => gs.hasFlag('seraphine_pause_57')",
+  "ACTE5_01_LENDEMAIN :: gs => gs.hasFlag('grain_ordonne_57')",
+  "ACTE5_01_LENDEMAIN :: gs => gs.hasFlag('oraya_pardonnee')",
+  "ACTE5_01_LENDEMAIN :: gs => gs.hasFlag('mira_payee')",
+  "ACTE5_01_LENDEMAIN :: gs => gs.hasFlag('mira_rejetee')",
+  "ACTE5_01_LENDEMAIN :: gs => calme57_(gs) && libre57_(gs)",
+  "ACTE4_06_OMBRE_AVEU :: gs => gs.hasFlag('allie_silas_58')",
+  "ACTE4_06_OMBRE_AVEU :: gs => gs.hasFlag('silas_decline_58')",
+  "ACTE4_09_TRONE_EBENE :: gs => gs.hasFlag('emprise_lachee_58')",
+  "ACTE4_09_ISSUES_SECONDAIRES :: gs => gs.hasFlag('veyra_temoin_58')",
+  "ACTE4_09_ISSUES_SECONDAIRES :: gs => gs.hasFlag('veyra_refus_58')",
+  "ACTE4_09_TRONE_EBENE :: gs => gs.hasFlag('seraphine_nom_brule_58')",
+  "ACTE5_01_LENDEMAIN :: gs => gs.hasFlag('kaelen_mere_cherchee_58')",
+  "ACTE5_01_LENDEMAIN :: gs => gs.hasFlag('seraphine_nom_garde_58')",
+  "NGP_14_TRONE_BRIS :: gs => gs.hasFlag('ngplus_fen_limite_58')",
+  "NGP_10_ORAYA :: gs => gs.hasFlag('ngplus_contrat_dechire_58')",
+  "FIN_OMBRE :: gs => gs.hasFlag('trio_accord')",
+  "FIN_ECLAIREUR :: gs => gs.hasFlag('trio_accord')",
+  "ACTE1_07_RETROUVAILLES :: gs => gs.hasFlag('truce_initiale')",
+  "ACTE4_09_TRONE_EBENE :: gs => gs.hasFlag('felure_O_suspendue') && companionPresentO(gs)",
+  "ACTE4_09_TRONE_EBENE :: gs => gs.hasFlag('felure_E_suspendue') && companionPresentE(gs)",
+  "ACTE4_06B_TEST_KAELEN :: gs => gs.hasFlag('dague_kaelen_prise')",
+  "ACTE4_05_ARRIVEE_PORTES_1 :: gs => gs.hasFlag('trio_attente')"
+ ],
+ "sugg": {
+  "ton_sarcasme": [],
+  "kaelen_a_vu_refus_E": [
+   [
+    "ACTE3_08_MISE_AU_POINT",
+    5
+   ],
+   [
+    "ACTE2_06B_LENDEMAIN_CONFIDENCE",
+    4
+   ],
+   [
+    "R_E_1",
+    4
+   ],
+   [
+    "LIEN_MARCHE_2",
+    4
+   ]
+  ],
+  "joute_intime_E": [],
+  "joute_silence_O": [],
+  "kaelen_libre_choisir": [],
+  "romance_deferred_O_payoff": [
+   [
+    "ACTE4_08_SEUIL_ETERNITE",
+    4
+   ],
+   [
+    "ACTE4_09_TRONE_EBENE",
+    4
+   ],
+   [
+    "ACTE5_01_LENDEMAIN",
+    4
+   ],
+   [
+    "ACTE4_05_ARRIVEE_PORTES_1",
+    3
+   ]
+  ],
+  "romance_deferred_O_closed": [],
+  "romance_deferred_E_closed": [],
+  "solo_choix_definitif_acte3": [],
+  "solo_oraya_dette_rendue": [],
+  "solo_oraya_limite_retrouvee": [],
+  "solo_oraya_passe_brise": [],
+  "seraphine_tenue": [],
+  "trio_refuse": [],
+  "veyra_defiee": [],
+  "veyra_ignoree": [],
+  "veyra_fragment_brise": [],
+  "veyra_mensonge_avoue": [],
+  "dette_solution_personnelle": [],
+  "veyra_fin_pouvoir": [],
+  "ngplus_alistair_baiser": [],
+  "ngplus_alistair_libre": [],
+  "ngplus_sceau_source": [],
+  "ngplus_final_cycle": [],
+  "ngplus_final_frontiere": [],
+  "ngplus_architecte_nomme_57": [],
+  "veyra_graine_57": [
+   [
+    "ACTE4_01_DEPART_VILLAGE",
+    42
+   ],
+   [
+    "ACTE3_08_MISE_AU_POINT",
+    34
+   ],
+   [
+    "ACTE3_10_ACCUEIL_CULTE_1",
+    34
+   ],
+   [
+    "ACTE3_04_ENVOUTEMENT",
+    28
+   ]
+  ],
+  "veyra_question_57": [
+   [
+    "ACTE4_01_DEPART_VILLAGE",
+    23
+   ],
+   [
+    "ACTE3_08_MISE_AU_POINT",
+    18
+   ],
+   [
+    "ACTE3_10_ACCUEIL_CULTE_1",
+    18
+   ],
+   [
+    "ACTE3_04_ENVOUTEMENT",
+    16
+   ]
+  ],
+  "portes_ordonnees_57": [],
+  "veyra_egale_57": [],
+  "romance_E_rompue": [
+   [
+    "ACTE4_09_TRONE_EBENE",
+    3
+   ],
+   [
+    "ACTE4_02_CHOIX_CHAMBRE",
+    2
+   ],
+   [
+    "ACTE4_04_COMMUNION_FINALE_SOLO",
+    2
+   ],
+   [
+    "ACTE4_AVEU_PARALLELE",
+    2
+   ]
+  ],
+  "possession_agonie_ouverte_601": [],
+  "sceau_tenue_601": [],
+  "seraphine_separee_59": [],
+  "seraphine_conflit_repare_57": [
+   [
+    "ACTE4_01_HALTE_DOME",
+    2
+   ],
+   [
+    "ACTE4_01_DEPART_VILLAGE",
+    1
+   ],
+   [
+    "SERAPHINE_COEUR_3_LAME",
+    1
+   ],
+   [
+    "ACTE4_02_CHOIX_CHAMBRE",
+    1
+   ]
+  ],
+  "seraphine_pause_57": [],
+  "grain_ordonne_57": [],
+  "oraya_pardonnee": [],
+  "mira_payee": [],
+  "mira_rejetee": [
+   [
+    "ACTE3_04_ENVOUTEMENT",
+    2
+   ],
+   [
+    "ACTE_SOLO_FEN",
+    1
+   ],
+   [
+    "ACTE2_12_NUIT_ISOLEE",
+    1
+   ],
+   [
+    "ACTE2_12_QS_FLEURS",
+    1
+   ]
+  ],
+  "allie_silas_58": [],
+  "silas_decline_58": [],
+  "emprise_lachee_58": [],
+  "veyra_temoin_58": [],
+  "veyra_refus_58": [],
+  "seraphine_nom_brule_58": [
+   [
+    "ACTE4_01_HALTE_DOME",
+    1
+   ],
+   [
+    "ACTE4_02_CHOIX_CHAMBRE",
+    1
+   ],
+   [
+    "ACTE4_04_COMMUNION_FINALE_SOLO",
+    1
+   ],
+   [
+    "ACTE4_AVEU_PARALLELE",
+    1
+   ]
+  ],
+  "kaelen_mere_cherchee_58": [],
+  "seraphine_nom_garde_58": [],
+  "ngplus_fen_limite_58": [],
+  "ngplus_contrat_dechire_58": [],
+  "trio_accord": [],
+  "truce_initiale": [],
+  "felure_O_suspendue": [],
+  "felure_E_suspendue": [],
+  "dague_kaelen_prise": [],
+  "trio_attente": []
+ },
+ "statut": {
+  "LIEN_MARCHE_1 :: ton_sarcasme": "rare",
+  "ACTE2_08_MATIN_AUBERGE :: kaelen_a_vu_refus_E": "rare",
+  "ACTE2_10_RAVIN :: joute_intime_E": "rare",
+  "ACTE3_01_FRONTIERE_1 :: joute_silence_O": "rare",
+  "ACTE3_01_FRONTIERE_1 :: kaelen_libre_choisir": "rare",
+  "ACTE3_08_MISE_AU_POINT :: romance_deferred_O_payoff": "rare",
+  "ACTE3_08_MISE_AU_POINT :: romance_deferred_O_closed": "rare",
+  "ACTE3_08_MISE_AU_POINT :: romance_deferred_E_closed": "rare",
+  "ACTE3_10_ACCUEIL_CULTE_1 :: solo_choix_definitif_acte3": "rare",
+  "ACTE3_10_ACCUEIL_CULTE_1 :: solo_oraya_dette_rendue": "rare",
+  "ACTE3_10_ACCUEIL_CULTE_1 :: solo_oraya_limite_retrouvee": "rare",
+  "ACTE3_10_ACCUEIL_CULTE_1 :: solo_oraya_passe_brise": "rare",
+  "ACTE4_09_TRONE_EBENE :: seraphine_tenue": "rare",
+  "ACTE4_05_ARRIVEE_PORTES_1 :: trio_refuse": "rare",
+  "ACTE4_05_ARRIVEE_PORTES_1 :: veyra_defiee": "rare",
+  "ACTE4_05_ARRIVEE_PORTES_1 :: veyra_ignoree": "rare",
+  "ACTE4_05_ARRIVEE_PORTES_1 :: veyra_fragment_brise": "rare",
+  "ACTE4_05_ARRIVEE_PORTES_1 :: veyra_mensonge_avoue": "rare",
+  "ACTE4_09_TRONE_EBENE :: dette_solution_personnelle": "rare",
+  "ACTE4_09_ISSUES_SECONDAIRES :: veyra_fin_pouvoir": "rare",
+  "NGP_13_BRASIER :: ngplus_alistair_baiser": "rare",
+  "NGP_13_BRASIER :: ngplus_alistair_libre": "rare",
+  "NGP_13_BRASIER :: ngplus_sceau_source": "rare",
+  "NG_FIN_AMOUR :: ngplus_final_cycle": "rare",
+  "NG_FIN_AMOUR :: ngplus_final_frontiere": "rare",
+  "NG_FIN_AMOUR :: ngplus_architecte_nomme_57": "rare",
+  "VEYRA_PACTE :: veyra_graine_57": "rare",
+  "VEYRA_PACTE :: veyra_question_57": "rare",
+  "ACTE4_06_MASQUE_TOMBE_1 :: portes_ordonnees_57": "rare",
+  "ACTE3_08_MISE_AU_POINT :: gs => possedee57_(gs)": "rare",
+  "ACTE3_08_MISE_AU_POINT :: gs => possedee57_(gs) && companionPresen": "rare",
+  "ACTE4_09_TRONE_EBENE :: gs => possedee57_(gs) && !instable57_(gs": "rare",
+  "ACTE4_09_ISSUES_SECONDAIRES :: veyra_egale_57": "rare",
+  "ACTE4_09_ISSUES_SECONDAIRES :: romance_E_rompue": "rare",
+  "ACTE4_09_TRONE_EBENE :: possession_agonie_ouverte_601": "rare",
+  "ACTE4_08_CORRIDOR_OBSIDIENNE :: sceau_tenue_601": "rare",
+  "ACTE4_09_TRONE_EBENE :: seraphine_separee_59": "rare",
+  "ACTE4_09_TRONE_EBENE :: seraphine_conflit_repare_57": "rare",
+  "ACTE4_09_TRONE_EBENE :: seraphine_pause_57": "rare",
+  "ACTE5_01_LENDEMAIN :: grain_ordonne_57": "rare",
+  "ACTE5_01_LENDEMAIN :: oraya_pardonnee": "rare",
+  "ACTE5_01_LENDEMAIN :: mira_payee": "rare",
+  "ACTE5_01_LENDEMAIN :: mira_rejetee": "rare",
+  "ACTE5_01_LENDEMAIN :: gs => calme57_(gs) && libre57_(gs)": "rare",
+  "ACTE4_06_OMBRE_AVEU :: allie_silas_58": "rare",
+  "ACTE4_06_OMBRE_AVEU :: silas_decline_58": "rare",
+  "ACTE4_09_TRONE_EBENE :: emprise_lachee_58": "rare",
+  "ACTE4_09_ISSUES_SECONDAIRES :: veyra_temoin_58": "rare",
+  "ACTE4_09_ISSUES_SECONDAIRES :: veyra_refus_58": "rare",
+  "ACTE4_09_TRONE_EBENE :: seraphine_nom_brule_58": "rare",
+  "ACTE5_01_LENDEMAIN :: kaelen_mere_cherchee_58": "rare",
+  "ACTE5_01_LENDEMAIN :: seraphine_nom_garde_58": "rare",
+  "NGP_14_TRONE_BRIS :: ngplus_fen_limite_58": "rare",
+  "NGP_10_ORAYA :: ngplus_contrat_dechire_58": "rare",
+  "FIN_OMBRE :: trio_accord": "rare",
+  "FIN_ECLAIREUR :: trio_accord": "rare",
+  "ACTE1_07_RETROUVAILLES :: truce_initiale": "rare",
+  "ACTE4_09_TRONE_EBENE :: felure_O_suspendue": "rare",
+  "ACTE4_09_TRONE_EBENE :: felure_E_suspendue": "rare",
+  "ACTE4_06B_TEST_KAELEN :: dague_kaelen_prise": "rare",
+  "ACTE4_05_ARRIVEE_PORTES_1 :: trio_attente": "rare"
+ },
+ "inaccessibles": []
+}

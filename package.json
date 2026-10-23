@@ -1,0 +1,25 @@
+{
+  "name": "elenya",
+  "version": "60.8.1",
+  "description": "ELENYA — L’Héritage de Primaëlys",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "build": "node scripts/build.js",
+    "lint": "node scripts/lint.js",
+    "test": "node tests/run-all.cjs",
+    "test:legacy": "node elenya-refonte-52.4/qa/bivouac-kaelen.cjs && node elenya-refonte-52.4/qa/romance.cjs && node elenya-refonte-52.4/qa/check.cjs && node elenya-refonte-52.4/qa/first-run.cjs && node elenya-refonte-52.4/qa/choice-distinctness.cjs && node elenya-refonte-52.4/qa/image-reviewer.cjs",
+    "empreinte": "node tools/empreinte_narrative.js",
+    "test:full": "node -e \"process.env.ELENYA_LOT='complet';require('./tests/run-all.cjs')\"",
+    "test:e2e": "node tests/e2e/run-e2e.cjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "pixelmatch": "5.3.0",
+    "playwright-core": "1.64.1",
+    "pngjs": "7.0.0",
+    "puppeteer-core": "22.15.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+ "routesFins": {
+  "FIN_POLY": {
+   "rupture": "TRIO_NUIT_DOME/PROPOSER",
+   "raison": [
+    "domination_acte3_O",
+    "domination_path_chosen"
+   ],
+   "remplacee": true,
+   "graine": 101
+  },
+  "FIN_ECLAIREUR": {
+   "rupture": "ACTE4_09_TRONE_EBENE/FIN_ECLAIREUR",
+   "raison": [
+    "domination_acte3_O",
+    "domination_path_chosen"
+   ],
+   "remplacee": true,
+   "graine": 1382
+  },
+  "GAME_OVER_SCELLEE": {
+   "rupture": "ACTE3_09B_BIVOUAC_TEMPETE/POLY_REPARER",
+   "raison": [
+    "domination_acte3_E",
+    "domination_path_chosen"
+   ],
+   "remplacee": true,
+   "graine": 59
+  }
+ },
+ "echos": {
+  "ACTE4_06_OMBRE_AVEU :: Silas a haussé les épaules quand tu as refusé ses hommes. « ": {
+   "rupture": "ACTE4_01_HALTE_DOME/V57_ARC57_KAELEN_CONFLIT",
+   "raison": [
+    "crevasse_domination"
+   ],
+   "remplacee": true
+  },
+  "ACTE4_09_TRONE_EBENE :: Ton pouvoir est parfaitement calme, et c’est le danger : le ": {
+   "rupture": "ACTE4_01_HALTE_DOME/V57_ARC57_KAELEN_CONFLIT",
+   "raison": [
+    "crevasse_domination",
+    "domination_acte3_E",
+    "domination_path_chosen",
+    "possession>=12"
+   ],
+   "remplacee": true
+  },
+  "ACTE4_09_TRONE_EBENE :: La fêlure avec Kaelen n’est pas refermée. Vous l’avez suspen": {
+   "rupture": "ACTE4_01_HALTE_DOME/V57_ARC57_KAELEN_CONFLIT",
+   "raison": [
+    "domination_acte3_O",
+    "domination_path_chosen"
+   ],
+   "remplacee": true
+  }
+ },
+ "parcours": {
+  "alistair": {
+   "rupture": "ACTE4_09_TRONE_EBENE/FIN_ECLAIREUR",
+   "raison": [
+    "domination_acte3_O",
+    "domination_path_chosen"
+   ],
+   "remplacee": true,
+   "graine": 1382
+  },
+  "ngplus": {
+   "note": "faux positif de l’outil (rejoué en mode classique) : route d’origine conservée"
+  }
+ }
+}

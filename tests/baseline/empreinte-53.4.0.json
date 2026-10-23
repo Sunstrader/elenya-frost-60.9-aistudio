@@ -1,0 +1,7 @@
+{
+ "scenesClassiques": 227,
+ "scenesNGPlus": 80,
+ "empreinteStructure": "ca0afc57aecdc19cb2fb6c73d21d9bfa5abe21712b0cf975be00d59f2a5e48dc",
+ "empreinteTextes": "c37546a2a9dbc26ebca7ba819829503343e07e2b18862f843cbd87c2d0531541",
+ "note": "Écarts de structure assumés vs 52.5.4, tous vérifiés : lectures de drapeaux existants ajoutées (ACTE4_09_TRONE_EBENE: alistair_mort, kaelen_mort ; FIN_SACRIFICE: alistair_mort, kaelen_mort, fen_adieu_scene ; ACTE4_06_MASQUE_TOMBE_1: alistair_emprisonne, alistair_foi_libre, alistair_libre_choisir) et FRAGMENT_4_RETOUR choix 0 -> ACTE4_07_ADIEU_KALTHAR (la scène du Seuil était sautée). Aucun id de scène, aucun drapeau nouveau."
+}

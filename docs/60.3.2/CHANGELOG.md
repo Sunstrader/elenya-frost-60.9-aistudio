@@ -1,0 +1,21 @@
+# CHANGELOG — 60.3.2
+
+- **Domination → aucune romance.** Nouvelle fonction unique `dominationRomance6032_` (20_Core_Helpers.js). Elle couvre la crevasse, `domination_acte3_O/E`, `domination_path_chosen`, `go_poly_domination`, `domination_finale` et une possession ≥ 12. Elle est appelée dans :
+  - le déclencheur du dôme (10_Triggers.js) ;
+  - PROPOSER au dôme (DATABASE_Secondary.js), qui bascule vers PROPOSER_REFUS ;
+  - `trioConsenti56_` (FIN_POLY) ;
+  - FIN_OMBRE, FIN_ECLAIREUR et les reconversions V28 (la domination de l'**autre** partenaire ferme aussi la romance) ;
+  - l'accès à ARC57_KAELEN_CONFLIT, TENIR (Kaelen) et GARDER (Alistair) ;
+  - POLY_REPARER.
+- **Trio consenti atteignable.** Nouvelle scène `TRIO6032_QUESTION` (« La Chaise Libre »), proposée dans la salle commune et au bivouac de la tempête quand les deux romances sont ouvertes et que rien ne contredit le consentement. Kaelen et Alistair y disent oui explicitement, chacun pour lui, et `lisiere_trio_ouvert` est alors posé ; le joueur peut aussi retirer la question.
+- **Dôme.** Trois « Oui » explicites (Kaelen, Alistair, puis Kaelen à Alistair). Le journal ne parle plus de « récompense ».
+- **FIN_POLY.** Un accord du dôme suivi d'une pause n'est plus lu comme une possession (nouvelle variante « L'accord du dôme tient… »). « enchaînés » n'apparaît plus jamais avec `trio_accord`.
+- **Dettes.**
+  - Au seuil du Trône (ACTE4_08_SEUIL_ETERNITE), on peut poser les deux dettes côte à côte, décider de leur sort, ou rendre la sienne à celui des deux qu'on a entendu.
+  - La quête passe « manquée » si le seuil est franchi sans décision.
+  - Indices mis à jour.
+- **Lignées.** TEMOIN, EQUILIBRE, RECONCILIATION et DETTE_ANNULEE appartiennent désormais à la lignée « Les Trônes partagés », avec un cadre sans « cesser de mentir ». FIN_VERITE et FIN_REDEMPTION ne changent pas.
+- **Tests.**
+  - Nouveau `tests/correctifs-6032.cjs`, inclus dans `npm test`.
+  - Outils `tests/_mesure-6032.cjs` et `tools/regen-fixtures-6032.cjs`.
+  - Routes figées régénérées dans les fixtures `*-60.3.2.json` (raisons dans `regen-6032.json`), empreinte 60.3.2, sauvegardes : retraits admis seulement pour cause de domination.

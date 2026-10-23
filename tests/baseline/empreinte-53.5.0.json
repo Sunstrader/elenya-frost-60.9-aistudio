@@ -1,0 +1,7 @@
+{
+ "scenesClassiques": 231,
+ "scenesNGPlus": 80,
+ "empreinteStructure": "cc170ff6b4d3558b6b6b2c2fe5c948dd0f983cfa0cc8da9013118f92ab432de7",
+ "empreinteTextes": "f0acc5fc66b0087d27d42d84ccdaac23195ce5315922857832568f42f10e2177",
+ "note": "Écarts 53.5.0 assumés vs 53.4.0, tous vérifiés : 4 scènes nouvelles (ALISTAIR_LETTRE_SOEUR, TRIO_NUIT_DOME, ACTE5_01B_PREMIER_MATIN, ACTE5_01C_DERNIERE_QUESTION) ; nouveaux choix (FRAGMENT_1/2/3_REVEIL RETENIR/NOMMER/ECOUTER, auberge S_LIMITE_DEUX) ; ACTE5_01_LENDEMAIN -> SUITE (A/B/C déplacés en ACTE5_01C) ; effets de jauges/minuteurs rendant atteignables les 7 fins rares ; lectures de nouveaux drapeaux (absents = comportement 53.4). Séquence de la sirène : choix inchangés (consigne auteur)."
+}

@@ -1,0 +1,1009 @@
+{
+ "bilan": {
+  "rare": 83
+ },
+ "sousBilan": {
+  "drapeau jamais posé en 400 parties": 62,
+  "drapeau et hôte jamais ensemble": 6,
+  "affiché (rare)": 13,
+  "conditions réunies mais texte absent": 2
+ },
+ "lignes": [
+  {
+   "echo": "LIEN_MARCHE_1 :: Ton ton coupant de tout à l’heure flotte encore. Fen marche ",
+   "classe": "rare",
+   "detail": "exige ton_sarcasme",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 370,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "ACTE2_10_RAVIN :: Depuis la joute du bivouac, chaque pas sur la glace ressembl",
+   "classe": "rare",
+   "detail": "exige bivouac_glace_joute",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 400,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "ACTE2_10_RAVIN :: Alistair marche à ta droite. Tu lui as dit que sa foi était ",
+   "classe": "rare",
+   "detail": "exige joute_intime_E",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 400,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "ACTE2_10_RAVIN :: « Mon seul regret est de ne pas me souvenir de toi. » Kaelen",
+   "classe": "rare",
+   "detail": "exige joute_intime_O",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 400,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "ACTE3_01_FRONTIERE_1 :: Tu l’avais laissé décider, la dernière fois. Kaelen n’a pas ",
+   "classe": "rare",
+   "detail": "exige joute_silence_O",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 397,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "ACTE3_01_FRONTIERE_1 :: « La porte est encore là. » Kaelen ne l’a pas prise. Il le r",
+   "classe": "rare",
+   "detail": "exige kaelen_libre_choisir",
+   "jeu": {
+    "drapeau": 12,
+    "hote": 397,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau et hôte jamais ensemble"
+  },
+  {
+   "echo": "ACTE3_08_MISE_AU_POINT :: Kaelen a compris que tu n’avais pas oublié. Il ne demande pl",
+   "classe": "rare",
+   "detail": "exige romance_deferred_O_closed",
+   "jeu": {
+    "drapeau": 2,
+    "hote": 342,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau et hôte jamais ensemble"
+  },
+  {
+   "echo": "ACTE3_08_MISE_AU_POINT :: L’attente n’a pas ressemblé à un rejet. Alistair te le prouv",
+   "classe": "rare",
+   "detail": "exige romance_deferred_E_closed",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 342,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "ACTE3_10_ACCUEIL_CULTE_1 :: Oraya porte la plaque sur sa poitrine. Elle ne te remercie p",
+   "classe": "rare",
+   "detail": "exige solo_oraya_dette_rendue",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 314,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "ACTE4_09_ISSUES_SECONDAIRES :: Tu as demandé son pouvoir à Veyra, rien d’autre. Le Trône t’",
+   "classe": "rare",
+   "detail": "exige veyra_fin_pouvoir",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 50,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "NG_FIN_AMOUR :: Tu as tendu la main sans retenir personne. Ceux qui sont res",
+   "classe": "rare",
+   "detail": "exige ngplus_final_amour",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 0,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "NG_FIN_AMOUR :: Tu as refusé de laisser Kalthar partir. Le cycle reprend, et",
+   "classe": "rare",
+   "detail": "exige ngplus_final_cycle",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 0,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "NG_FIN_AMOUR :: Tu es devenue la frontière. Le Brasier te touche sans franch",
+   "classe": "rare",
+   "detail": "exige ngplus_final_frontiere",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 0,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "NG_FIN_AMOUR :: Tu avances sans couronne. Ta tête est plus légère que tu ne ",
+   "classe": "rare",
+   "detail": "exige ngplus_final_libre",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 0,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "NG_FIN_AMOUR :: Tu es retournée une dernière fois vers le Trône. Il s’en sou",
+   "classe": "rare",
+   "detail": "exige ngplus_final_trone",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 0,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "NG_FIN_AMOUR :: Tu as laissé le silence décider. Il a décidé doucement.",
+   "classe": "rare",
+   "detail": "exige ngplus_final_void",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 0,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "NG_FIN_AMOUR :: Tu as nommé l’architecte : toi, la première. Le cycle ne se ",
+   "classe": "rare",
+   "detail": "exige ngplus_architecte_nomme_57",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 0,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "NG_FIN_CYCLE :: Tu as tendu la main sans retenir personne. Ceux qui sont res",
+   "classe": "rare",
+   "detail": "exige ngplus_final_amour",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 0,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "NG_FIN_CYCLE :: Tu es devenue la frontière. Le Brasier te touche sans franch",
+   "classe": "rare",
+   "detail": "exige ngplus_final_frontiere",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 0,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "NG_FIN_CYCLE :: Tu avances sans couronne. Ta tête est plus légère que tu ne ",
+   "classe": "rare",
+   "detail": "exige ngplus_final_libre",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 0,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "NG_FIN_CYCLE :: Tu es retournée une dernière fois vers le Trône. Il s’en sou",
+   "classe": "rare",
+   "detail": "exige ngplus_final_trone",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 0,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "NG_FIN_CYCLE :: Tu as laissé le silence décider. Il a décidé doucement.",
+   "classe": "rare",
+   "detail": "exige ngplus_final_void",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 0,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "NG_FIN_CYCLE :: Tu as nommé l’architecte : toi, la première. Le cycle ne se ",
+   "classe": "rare",
+   "detail": "exige ngplus_architecte_nomme_57",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 0,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "NG_FIN_DEUX_MAINS :: Tu as tendu la main sans retenir personne. Ceux qui sont res",
+   "classe": "rare",
+   "detail": "exige ngplus_final_amour",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 0,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "NG_FIN_DEUX_MAINS :: Tu as refusé de laisser Kalthar partir. Le cycle reprend, et",
+   "classe": "rare",
+   "detail": "exige ngplus_final_cycle",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 0,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "NG_FIN_DEUX_MAINS :: Tu es devenue la frontière. Le Brasier te touche sans franch",
+   "classe": "rare",
+   "detail": "exige ngplus_final_frontiere",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 0,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "NG_FIN_DEUX_MAINS :: Tu avances sans couronne. Ta tête est plus légère que tu ne ",
+   "classe": "rare",
+   "detail": "exige ngplus_final_libre",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 0,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "NG_FIN_DEUX_MAINS :: Tu es retournée une dernière fois vers le Trône. Il s’en sou",
+   "classe": "rare",
+   "detail": "exige ngplus_final_trone",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 0,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "NG_FIN_DEUX_MAINS :: Tu as laissé le silence décider. Il a décidé doucement.",
+   "classe": "rare",
+   "detail": "exige ngplus_final_void",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 0,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "NG_FIN_DEUX_MAINS :: Tu as nommé l’architecte : toi, la première. Le cycle ne se ",
+   "classe": "rare",
+   "detail": "exige ngplus_architecte_nomme_57",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 0,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "NG_FIN_FRONTIERE :: Tu as tendu la main sans retenir personne. Ceux qui sont res",
+   "classe": "rare",
+   "detail": "exige ngplus_final_amour",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 0,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "NG_FIN_FRONTIERE :: Tu as refusé de laisser Kalthar partir. Le cycle reprend, et",
+   "classe": "rare",
+   "detail": "exige ngplus_final_cycle",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 0,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "NG_FIN_FRONTIERE :: Tu es devenue la frontière. Le Brasier te touche sans franch",
+   "classe": "rare",
+   "detail": "exige ngplus_final_frontiere",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 0,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "NG_FIN_FRONTIERE :: Tu avances sans couronne. Ta tête est plus légère que tu ne ",
+   "classe": "rare",
+   "detail": "exige ngplus_final_libre",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 0,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "NG_FIN_FRONTIERE :: Tu es retournée une dernière fois vers le Trône. Il s’en sou",
+   "classe": "rare",
+   "detail": "exige ngplus_final_trone",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 0,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "NG_FIN_FRONTIERE :: Tu as laissé le silence décider. Il a décidé doucement.",
+   "classe": "rare",
+   "detail": "exige ngplus_final_void",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 0,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "NG_FIN_FRONTIERE :: Tu as nommé l’architecte : toi, la première. Le cycle ne se ",
+   "classe": "rare",
+   "detail": "exige ngplus_architecte_nomme_57",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 0,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "NG_FIN_LIBERATION :: Tu as refusé de laisser Kalthar partir. Le cycle reprend, et",
+   "classe": "rare",
+   "detail": "exige ngplus_final_cycle",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 0,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "NG_FIN_VIDE :: Tu as tendu la main sans retenir personne. Ceux qui sont res",
+   "classe": "rare",
+   "detail": "exige ngplus_final_amour",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 0,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "NG_FIN_VIDE :: Tu as refusé de laisser Kalthar partir. Le cycle reprend, et",
+   "classe": "rare",
+   "detail": "exige ngplus_final_cycle",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 0,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "NG_FIN_VIDE :: Tu es devenue la frontière. Le Brasier te touche sans franch",
+   "classe": "rare",
+   "detail": "exige ngplus_final_frontiere",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 0,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "NG_FIN_VIDE :: Tu avances sans couronne. Ta tête est plus légère que tu ne ",
+   "classe": "rare",
+   "detail": "exige ngplus_final_libre",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 0,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "NG_FIN_VIDE :: Tu es retournée une dernière fois vers le Trône. Il s’en sou",
+   "classe": "rare",
+   "detail": "exige ngplus_final_trone",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 0,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "NG_FIN_VIDE :: Tu as laissé le silence décider. Il a décidé doucement.",
+   "classe": "rare",
+   "detail": "exige ngplus_final_void",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 0,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "NG_FIN_VIDE :: Tu as nommé l’architecte : toi, la première. Le cycle ne se ",
+   "classe": "rare",
+   "detail": "exige ngplus_architecte_nomme_57",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 0,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "ACTE3_08_MISE_AU_POINT :: Tu remarques que tu comptes tes compagnons comme des pièces.",
+   "classe": "rare",
+   "detail": "condition sur jauges",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 342,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "ACTE3_08_MISE_AU_POINT :: Kaelen reconnaît l’emprise dans ta voix. Il a servi des maît",
+   "classe": "rare",
+   "detail": "condition sur jauges",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 342,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "ACTE4_09_ISSUES_SECONDAIRES :: Veyra se tient à l’écart, sans pacte. Elle t’a dit la vérité",
+   "classe": "rare",
+   "detail": "exige veyra_egale_57",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 50,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "ACTE4_09_TRONE_EBENE :: Séraphine garde l’arrière. Vous ne marchez plus ensemble, ma",
+   "classe": "rare",
+   "detail": "exige seraphine_separee_59",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 245,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "ACTE5_01_LENDEMAIN :: Les réfugiés du culte ont passé l’hiver. Les déserteurs, non",
+   "classe": "rare",
+   "detail": "exige grain_refugies_57",
+   "jeu": {
+    "drapeau": 35,
+    "hote": 113,
+    "ensemble": 17,
+    "affiche": 17
+   },
+   "sousClasse": "affiché (rare)"
+  },
+  {
+   "echo": "ACTE5_01_LENDEMAIN :: Les déserteurs ont fondé une garde au village. Le culte ne t",
+   "classe": "rare",
+   "detail": "exige grain_deserteurs_57",
+   "jeu": {
+    "drapeau": 32,
+    "hote": 113,
+    "ensemble": 20,
+    "affiche": 19
+   },
+   "sousClasse": "affiché (rare)"
+  },
+  {
+   "echo": "ACTE5_01_LENDEMAIN :: Tout le monde a eu faim, personne n’est mort. On raconte l’h",
+   "classe": "rare",
+   "detail": "exige grain_partage_57",
+   "jeu": {
+    "drapeau": 34,
+    "hote": 113,
+    "ensemble": 10,
+    "affiche": 9
+   },
+   "sousClasse": "affiché (rare)"
+  },
+  {
+   "echo": "ACTE5_01_LENDEMAIN :: Le partage que tu as imposé a tenu. Mais personne ne vient p",
+   "classe": "rare",
+   "detail": "exige grain_ordonne_57",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 113,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "ACTE5_01_LENDEMAIN :: Silas a ouvert une route de contrebande par la poterne. Elle",
+   "classe": "rare",
+   "detail": "exige portes_silas_57",
+   "jeu": {
+    "drapeau": 12,
+    "hote": 113,
+    "ensemble": 7,
+    "affiche": 6
+   },
+   "sousClasse": "affiché (rare)"
+  },
+  {
+   "echo": "ACTE5_01_LENDEMAIN :: Le pardon n’a rien effacé. Oraya travaille aux cuisines, sou",
+   "classe": "rare",
+   "detail": "exige oraya_pardonnee",
+   "jeu": {
+    "drapeau": 13,
+    "hote": 113,
+    "ensemble": 5,
+    "affiche": 4
+   },
+   "sousClasse": "affiché (rare)"
+  },
+  {
+   "echo": "ACTE5_01_LENDEMAIN :: Mira a racheté un toit avec ce que tu lui as donné. Elle y l",
+   "classe": "rare",
+   "detail": "exige mira_payee",
+   "jeu": {
+    "drapeau": 2,
+    "hote": 113,
+    "ensemble": 1,
+    "affiche": 1
+   },
+   "sousClasse": "affiché (rare)"
+  },
+  {
+   "echo": "ACTE5_01_LENDEMAIN :: Mira a vendu à l’Ordre la carte de vos routes. Elle te l’écr",
+   "classe": "rare",
+   "detail": "exige mira_rejetee",
+   "jeu": {
+    "drapeau": 18,
+    "hote": 113,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau et hôte jamais ensemble"
+  },
+  {
+   "echo": "ACTE5_01_LENDEMAIN :: Lyra chante au marché. Ce n’est plus une arme. Les gens s’ar",
+   "classe": "rare",
+   "detail": "exige lyra_a_parle",
+   "jeu": {
+    "drapeau": 209,
+    "hote": 113,
+    "ensemble": 70,
+    "affiche": 33
+   },
+   "sousClasse": "affiché (rare)"
+  },
+  {
+   "echo": "ACTE5_01_LENDEMAIN :: Ton givre déborde encore la nuit. On a construit les maisons",
+   "classe": "rare",
+   "detail": "condition sur jauges",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 113,
+    "ensemble": 0,
+    "affiche": 96
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "ACTE5_01_LENDEMAIN :: Ceux qui t’entourent ne te contredisent plus. Tu as gagné le",
+   "classe": "rare",
+   "detail": "condition sur jauges",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 113,
+    "ensemble": 0,
+    "affiche": 1
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "ACTE5_01_LENDEMAIN :: Ton pouvoir est calme et tu ne retiens personne. On te consu",
+   "classe": "rare",
+   "detail": "condition sur jauges",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 113,
+    "ensemble": 0,
+    "affiche": 2
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "ACTE4_09_ISSUES_SECONDAIRES :: Veyra se tient près de la colonne, les bras croisés, témoin.",
+   "classe": "rare",
+   "detail": "exige veyra_temoin_58",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 50,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "ACTE4_09_ISSUES_SECONDAIRES :: Veyra est partie. Elle racontera cette nuit à sa manière. Tu",
+   "classe": "rare",
+   "detail": "exige veyra_refus_58",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 50,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "ACTE4_09_TRONE_EBENE :: Séraphine n’a plus de liste. Elle a brûlé son propre nom ave",
+   "classe": "rare",
+   "detail": "exige seraphine_nom_brule_58",
+   "jeu": {
+    "drapeau": 1,
+    "hote": 245,
+    "ensemble": 1,
+    "affiche": 0
+   },
+   "sousClasse": "conditions réunies mais texte absent"
+  },
+  {
+   "echo": "ACTE5_01_LENDEMAIN :: Kaelen est parti deux jours vers le sud. Il est revenu sans ",
+   "classe": "rare",
+   "detail": "exige kaelen_mere_cherchee_58",
+   "jeu": {
+    "drapeau": 10,
+    "hote": 113,
+    "ensemble": 8,
+    "affiche": 8
+   },
+   "sousClasse": "affiché (rare)"
+  },
+  {
+   "echo": "ACTE5_01_LENDEMAIN :: Alistair récite chaque matin la prière que tu as écrite pour",
+   "classe": "rare",
+   "detail": "exige alistair_priere_ecrite_58",
+   "jeu": {
+    "drapeau": 9,
+    "hote": 113,
+    "ensemble": 5,
+    "affiche": 5
+   },
+   "sousClasse": "affiché (rare)"
+  },
+  {
+   "echo": "ACTE5_01_LENDEMAIN :: Tu gardes toujours le nom de Séraphine dans une boîte en fer",
+   "classe": "rare",
+   "detail": "exige seraphine_nom_garde_58",
+   "jeu": {
+    "drapeau": 1,
+    "hote": 113,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau et hôte jamais ensemble"
+  },
+  {
+   "echo": "ACTE5_01_LENDEMAIN :: Tu as une maison. La porte ferme de l’intérieur. Tu l’ouvres",
+   "classe": "rare",
+   "detail": "exige solo_voeu_maison_58",
+   "jeu": {
+    "drapeau": 48,
+    "hote": 113,
+    "ensemble": 12,
+    "affiche": 12
+   },
+   "sousClasse": "affiché (rare)"
+  },
+  {
+   "echo": "ACTE5_01_LENDEMAIN :: Tu es repartie au troisième jour. Fen dort dans ta capuche. ",
+   "classe": "rare",
+   "detail": "exige solo_voeu_route_58",
+   "jeu": {
+    "drapeau": 44,
+    "hote": 113,
+    "ensemble": 19,
+    "affiche": 19
+   },
+   "sousClasse": "affiché (rare)"
+  },
+  {
+   "echo": "ACTE5_01_LENDEMAIN :: Tu tiens un carnet de ce que tu découvres sur ton pouvoir. P",
+   "classe": "rare",
+   "detail": "exige solo_voeu_savoir_58",
+   "jeu": {
+    "drapeau": 38,
+    "hote": 113,
+    "ensemble": 15,
+    "affiche": 15
+   },
+   "sousClasse": "affiché (rare)"
+  },
+  {
+   "echo": "ACTE5_01_LENDEMAIN :: Le chemin du village est marqué dans la neige par tes propre",
+   "classe": "rare",
+   "detail": "exige epilogue_village_58",
+   "jeu": {
+    "drapeau": 15,
+    "hote": 113,
+    "ensemble": 15,
+    "affiche": 15
+   },
+   "sousClasse": "affiché (rare)"
+  },
+  {
+   "echo": "NG_FIN_AMOUR :: La première Elenya t’aimait trop pour te laisser finir. Tu a",
+   "classe": "rare",
+   "detail": "exige ngplus_premiere_comprise_58",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 0,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "NG_FIN_AMOUR :: Tu as appelé sa peur par son nom. La glace a gardé l’écho de",
+   "classe": "rare",
+   "detail": "exige ngplus_premiere_accusee_58",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 0,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "NG_FIN_DEUX_MAINS :: La première Elenya t’aimait trop pour te laisser finir. Tu a",
+   "classe": "rare",
+   "detail": "exige ngplus_premiere_comprise_58",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 0,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "NG_FIN_DEUX_MAINS :: Tu as appelé sa peur par son nom. La glace a gardé l’écho de",
+   "classe": "rare",
+   "detail": "exige ngplus_premiere_accusee_58",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 0,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "NG_FIN_FRONTIERE :: La première Elenya t’aimait trop pour te laisser finir. Tu a",
+   "classe": "rare",
+   "detail": "exige ngplus_premiere_comprise_58",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 0,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "NG_FIN_FRONTIERE :: Tu as appelé sa peur par son nom. La glace a gardé l’écho de",
+   "classe": "rare",
+   "detail": "exige ngplus_premiere_accusee_58",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 0,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "NG_FIN_VIDE :: La première Elenya t’aimait trop pour te laisser finir. Tu a",
+   "classe": "rare",
+   "detail": "exige ngplus_premiere_comprise_58",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 0,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "NG_FIN_VIDE :: Tu as appelé sa peur par son nom. La glace a gardé l’écho de",
+   "classe": "rare",
+   "detail": "exige ngplus_premiere_accusee_58",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 0,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "FIN_OMBRE :: Il y avait eu un accord à trois, dans le dôme. Il ne s’est p",
+   "classe": "rare",
+   "detail": "exige trio_accord",
+   "jeu": {
+    "drapeau": 6,
+    "hote": 8,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau et hôte jamais ensemble"
+  },
+  {
+   "echo": "FIN_ECLAIREUR :: Il y avait eu un accord à trois, dans le dôme. Il ne s’est p",
+   "classe": "rare",
+   "detail": "exige trio_accord",
+   "jeu": {
+    "drapeau": 6,
+    "hote": 2,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau et hôte jamais ensemble"
+  },
+  {
+   "echo": "ACTE1_07_RETROUVAILLES :: La trêve que tu as imposée tient encore. Kaelen et Alistair ",
+   "classe": "rare",
+   "detail": "exige truce_initiale",
+   "jeu": {
+    "drapeau": 0,
+    "hote": 232,
+    "ensemble": 0,
+    "affiche": 0
+   },
+   "sousClasse": "drapeau jamais posé en 400 parties"
+  },
+  {
+   "echo": "ACTE4_09_TRONE_EBENE :: La fêlure avec Alistair n’est pas refermée. Il ne prie pas p",
+   "classe": "rare",
+   "detail": "exige felure_E_suspendue",
+   "jeu": {
+    "drapeau": 7,
+    "hote": 245,
+    "ensemble": 8,
+    "affiche": 0
+   },
+   "sousClasse": "conditions réunies mais texte absent"
+  }
+ ]
+}

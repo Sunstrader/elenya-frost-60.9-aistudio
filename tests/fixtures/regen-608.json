@@ -1,0 +1,183 @@
+{
+ "routesFins": {
+  "FIN_SERAPHINE_LAME": {
+   "rupture": "SERAPHINE_COEUR_3_LAME/BAISER",
+   "etat": [],
+   "remplacee": true,
+   "graine": 45531,
+   "prefixeGarde": null,
+   "note": "baiser désormais fermé sous emprise (possession>=12) : route où le baiser précède la montée de possession"
+  },
+  "FIN_VEYRA": {
+   "rupture": "ACTE4_02_CHOIX_CHAMBRE/O",
+   "etat": [],
+   "remplacee": true,
+   "graine": 717,
+   "prefixeGarde": 99
+  },
+  "FIN_POLY": {
+   "rupture": "ACTE3_09B_BIVOUAC_TEMPETE/TRIO6032",
+   "etat": [],
+   "remplacee": true,
+   "graine": 59,
+   "prefixeGarde": 13
+  },
+  "FIN_DOMINATION": {
+   "rupture": "JOUTE_E_2/C (au lieu de ACTE3_SILAS_CAMEO)",
+   "etat": [
+    "crevasse_domination",
+    "domination_acte3_O",
+    "domination_path_chosen"
+   ],
+   "remplacee": true,
+   "graine": 52,
+   "prefixeGarde": 86
+  },
+  "GAME_OVER_SCELLEE": {
+   "rupture": "JOUTE_O_2/A (au lieu de RELIQUE_KALTHAR_2)",
+   "etat": [
+    "domination_acte3_O",
+    "domination_path_chosen"
+   ],
+   "remplacee": true,
+   "graine": 38,
+   "prefixeGarde": 82
+  },
+  "FIN_CHAOS": {
+   "rupture": "cible différente",
+   "etat": [],
+   "remplacee": true,
+   "graine": 689,
+   "prefixeGarde": 73
+  }
+ },
+ "routesFinsB": {
+  "FIN_SERAPHINE_LAME": {
+   "rupture": "SERAPHINE_COEUR_3_LAME/BAISER",
+   "etat": [],
+   "remplacee": true,
+   "graine": 45531,
+   "prefixeGarde": null,
+   "note": "baiser désormais fermé sous emprise (possession>=12) : route où le baiser précède la montée de possession"
+  },
+  "FIN_VEYRA": {
+   "rupture": "ACTE4_02_CHOIX_CHAMBRE/O",
+   "etat": [],
+   "remplacee": true,
+   "graine": 87,
+   "prefixeGarde": 99
+  },
+  "FIN_POLY": {
+   "rupture": "ACTE3_09B_BIVOUAC_TEMPETE/TRIO6032",
+   "etat": [],
+   "remplacee": true,
+   "graine": 59,
+   "prefixeGarde": 13
+  },
+  "FIN_DOMINATION": {
+   "rupture": "JOUTE_E_2/C (au lieu de ACTE3_SILAS_CAMEO)",
+   "etat": [
+    "crevasse_domination",
+    "domination_acte3_O",
+    "domination_path_chosen"
+   ],
+   "remplacee": true,
+   "graine": 52,
+   "prefixeGarde": 86
+  }
+ },
+ "echos": {
+  "ACTE4_09_TRONE_EBENE :: Ton pouvoir est parfaitement calme, et c’est le danger : le ": {
+   "rupture": "JOUTE_O_2/A (au lieu de SILAS_MEMOIRES)",
+   "etat": [
+    "crevasse_domination",
+    "domination_acte3_E",
+    "domination_path_chosen"
+   ],
+   "remplacee": true,
+   "graine": 17,
+   "prefixeGarde": 84
+  },
+  "ACTE4_09_TRONE_EBENE :: La fêlure avec Kaelen n’est pas refermée. Vous l’avez suspen": {
+   "rupture": "JOUTE_O_2/A (au lieu de ACTE3_SILAS_CAMEO)",
+   "etat": [
+    "crevasse_domination",
+    "domination_acte3_O",
+    "domination_path_chosen"
+   ],
+   "remplacee": true,
+   "graine": 24,
+   "prefixeGarde": 80
+  },
+  "ACTE3_10_ACCUEIL_CULTE_1 :: Tu as dit à Oraya que tu marchais seule. Le culte l’a appris": {
+   "rupture": "JOUTE_E_2/E (au lieu de ACTE3_SILAS_CAMEO)",
+   "etat": [
+    "domination_acte3_E",
+    "domination_path_chosen"
+   ],
+   "remplacee": true,
+   "graine": 10,
+   "prefixeGarde": 88
+  },
+  "ACTE3_10_ACCUEIL_CULTE_1 :: Tu as brisé la plaque. Oraya ne te regarde plus comme son œu": {
+   "rupture": "JOUTE_E_2/E (au lieu de ACTE3_SILAS_CAMEO)",
+   "etat": [
+    "domination_acte3_E",
+    "domination_path_chosen"
+   ],
+   "remplacee": true,
+   "graine": 24,
+   "prefixeGarde": 88
+  },
+  "ACTE3_10_ACCUEIL_CULTE_1 :: La plaque dans ta poche te rappelle la limite que tu avais p": {
+   "rupture": "ACTE3_09_VILLAGE_CACHE/V517_RELATION_CHOICE_VILLAGE",
+   "etat": [
+    "crevasse_domination"
+   ],
+   "remplacee": true,
+   "graine": 24,
+   "prefixeGarde": 94
+  }
+ },
+ "parcours": {
+  "rupture": {
+   "rupture": "JOUTE_O_2/A (au lieu de RELIQUE_KALTHAR_2)",
+   "etat": [
+    "domination_acte3_O",
+    "domination_path_chosen"
+   ],
+   "remplacee": true,
+   "graine": 374,
+   "prefixeGarde": 39
+  },
+  "pause": {
+   "rupture": "cible différente",
+   "etat": [],
+   "remplacee": true,
+   "graine": 423,
+   "prefixeGarde": 76
+  },
+  "possession": {
+   "rupture": "ACTE3_09_VILLAGE_CACHE/V517_RELATION_CHOICE_VILLAGE",
+   "etat": [
+    "crevasse_domination",
+    "domination_acte3_O",
+    "domination_path_chosen"
+   ],
+   "remplacee": true,
+   "graine": 38,
+   "prefixeGarde": 44
+  },
+  "domination": {
+   "rupture": "JOUTE_E_2/C (au lieu de ACTE3_SILAS_CAMEO)",
+   "etat": [
+    "crevasse_domination",
+    "domination_acte3_O",
+    "domination_path_chosen"
+   ],
+   "remplacee": true,
+   "graine": 10,
+   "prefixeGarde": 86
+  }
+ }
+}

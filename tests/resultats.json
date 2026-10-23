@@ -1,0 +1,811 @@
+{
+ "date": "2026-10-16T20:48:59.957Z",
+ "lot": "rapide",
+ "dureeMs": 131749,
+ "echecs": 0,
+ "results": [
+  {
+   "nom": "Suite historique : bivouac-kaelen",
+   "ok": true,
+   "ms": 156
+  },
+  {
+   "nom": "Suite historique : romance",
+   "ok": true,
+   "ms": 186
+  },
+  {
+   "nom": "Suite historique : check",
+   "ok": true,
+   "ms": 10055
+  },
+  {
+   "nom": "Suite historique : first-run",
+   "ok": true,
+   "ms": 161
+  },
+  {
+   "nom": "Suite historique : choice-distinctness",
+   "ok": true,
+   "ms": 164
+  },
+  {
+   "nom": "Suite historique : image-reviewer",
+   "ok": true,
+   "ms": 168
+  },
+  {
+   "nom": "Empreinte narrative identique à la 52.5.4 (ou écarts documentés 53.4.0 / 53.5.0 / 53.6.0 / 54.0.0 / 55.0.0 / 56.0.0 / 57.0.0 / 58.0.0 / 59.0.0 / 60.0.0 / 60.1.0 / 60.3.1 / 60.3.2 / 60.8.0 / 60.8.1)",
+   "ok": true,
+   "ms": 160,
+   "info": {
+    "scenes": 326,
+    "textesIdentiques": false
+   }
+  },
+  {
+   "nom": "Intégrité DB : destinations existantes, aucune impasse hors fins",
+   "ok": true,
+   "ms": 2,
+   "info": {
+    "scenes": 246,
+    "ngPlus": 80
+   }
+  },
+  {
+   "nom": "Sauvegardes 52.5.4 (synthétiques, tous actes + NG+) chargées (même scène, anciens choix conservés)",
+   "ok": true,
+   "ms": 107,
+   "info": "115 sauvegardes"
+  },
+  {
+   "nom": "Sauvegarde corrompue ou vide : pas de plantage",
+   "ok": true,
+   "ms": 3
+  },
+  {
+   "nom": "Test du singe : 60 parties classiques + 20 NG+ sans erreur ni blocage",
+   "ok": true,
+   "ms": 8802,
+   "info": {
+    "finsDistinctes": 17,
+    "fins": {
+     "GAME_OVER_SURCHARGE": 9,
+     "FIN_BRISEE": 7,
+     "FIN_SOLO": 8,
+     "GAME_OVER_VENIN": 2,
+     "FIN_SACRIFICE": 8,
+     "FIN_CHAOS": 5,
+     "FIN_HIVER": 3,
+     "GAME_OVER_SCELLEE": 12,
+     "FIN_VEYRA": 1,
+     "FIN_TEMOIN": 3,
+     "GAME_OVER_SIRENE": 2,
+     "NG_FIN_LIBERATION": 7,
+     "NG_FIN_AMOUR": 5,
+     "NG_FIN_FRONTIERE": 1,
+     "NG_FIN_VIDE": 5,
+     "NG_FIN_CYCLE": 1,
+     "NG_FIN_DEUX_MAINS": 1
+    }
+   }
+  },
+  {
+   "nom": "Toutes les fins atteintes : parcours rejoués vers les fins rares + 60 classiques + 20 NG+",
+   "ok": true,
+   "ms": 13052,
+   "info": {
+    "finsDistinctes": 35,
+    "classiques": "30/30",
+    "rejoues": 23
+   }
+  },
+  {
+   "nom": "Récit 55 : Fêlure, conséquences différées, « La Lame à Nu », redirections",
+   "ok": true,
+   "ms": 16376,
+   "info": {
+    "felure": "OK",
+    "echos": "OK (7 vérifiés)",
+    "lameANu": "OK",
+    "jeuReel": {
+     "parties": 100,
+     "felure": 3,
+     "lameANu": 25
+    }
+   }
+  },
+  {
+   "nom": "Sirène : retournement du réveil préservé, clés et drapeaux compatibles",
+   "ok": true,
+   "ms": 221,
+   "info": {
+    "O": "rêve Kaelen → réveil Alistair",
+    "E": "rêve Alistair → réveil Kaelen"
+   }
+  },
+  {
+   "nom": "Version unique (package.json → moteur, repli UI, README, AGENTS) et libellés UI en français",
+   "ok": true,
+   "ms": 95,
+   "info": {
+    "version": "60.8.1",
+    "ok": true
+   }
+  },
+  {
+   "nom": "En-têtes des DATABASE : nombre réel de scènes",
+   "ok": true,
+   "ms": 110,
+   "info": {
+    "DATABASE_Acte1.js": 30,
+    "DATABASE_Acte2.js": 48,
+    "DATABASE_Acte3.js": 33,
+    "DATABASE_Acte4.js": 24,
+    "DATABASE_Acte5.js": 4,
+    "DATABASE_Endings.js": 25,
+    "DATABASE_Fragments.js": 16,
+    "DATABASE_Misc.js": 0,
+    "DATABASE_NGPlus.js": 21,
+    "DATABASE_Relations.js": 28,
+    "DATABASE_Secondary.js": 38
+   }
+  },
+  {
+   "nom": "Audits V58 : régressions des points critiques et majeurs",
+   "ok": true,
+   "ms": 180,
+   "info": {
+    "dominationExclutRomance": "OK",
+    "ruptureSeraphine": "OK",
+    "orayaSansRevelation": "OK",
+    "surchargeEtVenin": "transition testée : ACTE3_11_PRISON_ECHANGE",
+    "romanceSirene": "OK",
+    "auditFinal": "OK",
+    "continuite": "OK",
+    "ngplusHeritage": "OK",
+    "erreurScene": "OK",
+    "dominationNommeeEtImage": "OK",
+    "codex": "OK"
+   }
+  },
+  {
+   "nom": "Audits V59 : reprise, agonies, bible, trio, romance (V60)",
+   "ok": true,
+   "ms": 5621,
+   "info": {
+    "repriseEtSuivant": {
+     "parties": 30,
+     "morts": 10,
+     "sauvables": 10,
+     "parType": {
+      "GAME_OVER_SCELLEE": 4,
+      "GAME_OVER_SURCHARGE": 4,
+      "GAME_OVER_SIRENE": 1,
+      "GAME_OVER_VENIN": 1
+     }
+    },
+    "agonies": "OK",
+    "coutAvantClic": "OK",
+    "bible": "7 entrées Codex",
+    "pasDeBoucleErreur": "OK",
+    "polyEtAlias": "OK",
+    "trio": "OK",
+    "romanceEtQa": "OK",
+    "derniersSouffles": "OK"
+   }
+  },
+  {
+   "nom": "Tics d’écriture : plafonds par fichier d’acte (V59)",
+   "ok": true,
+   "ms": 106,
+   "info": {
+    "fichiers": 7,
+    "ok": true
+   }
+  },
+  {
+   "nom": "Échos 57/58 : aucun écho inaccessible (parties + graphe + rendu)",
+   "ok": true,
+   "ms": 10838,
+   "info": "{\"textes\":199,\"nonAtteints\":61,\"inaccessibles\":0}"
+  },
+  {
+   "nom": "Romances/fins 56 : trio consenti ≠ domination, rupture non rouverte (positifs + négatifs)",
+   "ok": true,
+   "ms": 182,
+   "info": {
+    "polyPositif": "OK",
+    "polyNegatifJauges": "OK",
+    "dominationDistincte": "OK",
+    "dominationFermeTrio": "OK",
+    "ruptureO": "OK",
+    "ruptureE": "OK",
+    "reconversionBloquee": "OK",
+    "intimiteBloquee": "OK",
+    "ombrePositif": "OK",
+    "eclaireurPositif": "OK",
+    "saveLoadRupture": "OK",
+    "textePolyConsenti": "OK"
+   }
+  },
+  {
+   "nom": "ADN 60.3 : fins distinctes, haltes d’exploration, réputation/inventaire/volonté/quêtes réels, sauvegarde, indice du trio",
+   "ok": true,
+   "ms": 277,
+   "info": {
+    "fins": {
+     "ecrans": 36,
+     "lignees": 16
+    },
+    "halteAuberge": "graine 1 : 38→48",
+    "sauvegarde": "OK",
+    "reputation": "OK",
+    "volonte": "OK",
+    "trio": "indice lu, consentement intact"
+   }
+  },
+  {
+   "nom": "Correctifs 60.3.1 : stèle sans révélation, quête des dettes, pain à réputation 0, Fen manquée, reconversion et indices du trio, échos des fins, autoSave",
+   "ok": true,
+   "ms": 1380,
+   "info": {
+    "stele": "graine 37 : STELE603 → STELE603_INDICE → bivouac ; FRAGMENT_4_STELE à l’acte 4",
+    "dette": "graine 185 : visible (« Kaelen et Alistair portent chacun une dette. Les entendre, ou au moins rendre la sienne à l’un d’eux avant le Trône. »), RENDRE → accomplie",
+    "auberge": "graine 37 : village=0 → VILLAGE → pain ; REMONTER sans Fen → manquée ; FEN → accomplie",
+    "reconversion": "bloquée par crevasse/domination acte 3/refus/amitié ; possible sinon",
+    "trio": "indice visible si consenti, masqué par refus/domination/pause/amitié/nuit non réparée",
+    "fins": "écho x1 dans les 5 fins Vérité ; CHAOS et DOMINATION sans contradiction",
+    "qaMode": "autoSave s’exécute sans ReferenceError"
+   }
+  },
+  {
+   "nom": "Correctifs 60.3.2 : aucune romance ni trio après domination, FIN_POLY par oui explicites, dettes réglables ou manquées, lignées des fins sans vérité",
+   "ok": true,
+   "ms": 654,
+   "info": {
+    "poly": "graine fixture : chaise libre (oui ×2) → dôme (oui ×3) → FIN_POLY, sans « enchaînés » (pause comprise)",
+    "domination": "dôme, PROPOSER, FIN_POLY/OMBRE/ECLAIREUR, reconversions, TENIR/GARDER, chaise libre : fermés par chaque domination (et l’emprise pour le dôme) ; témoins ouverts",
+    "dette": "seuil : une dette rendue → accomplie ; franchi sans décider → manquée ; deux dettes : révélation → choix → accomplie",
+    "lignees": "4 fins → « Les Trônes partagés », sans « cesser de mentir » ; REDEMPTION inchangée"
+   }
+  },
+  {
+   "nom": "Rythme 60.8.0 : écrans à choix unique < 38 %, fusions traversées, sauvegardes arrêtées sur une scène fusionnée rechargeables",
+   "ok": true,
+   "ms": 30253,
+   "info": {
+    "partChoixUniques": 34,
+    "fusionsTraversees": {
+     "ACTE2_02B_PANTHERE_LIBEREE": 61,
+     "LIEN_MARCHE_2B": 150,
+     "ACTE4_07B_CHOC_FRAGMENT": 91,
+     "ACTE2_02B_PANTHERE_ABSORBEE": 89,
+     "ACTE3_11_PRISON_ECHANGE": 35
+    },
+    "choix608": 18
+   }
+  },
+  {
+   "nom": "Romances 60.8.0 : refus sans punition, oui de chacun (chaise libre, dôme), refermer possible, pas de baiser sous emprise, moments R608 fermés par la domination",
+   "ok": true,
+   "ms": 408,
+   "info": {
+    "refusSansPunition": 15,
+    "prierOfferte": true,
+    "ok": true
+   }
+  },
+  {
+   "nom": "Romances 60.8.1 : dôme seulement si chacun peut dire oui et si Alistair n’est pas au cachot, question refermable par Kaelen ou Alistair, Sceau cohérent",
+   "ok": true,
+   "ms": 352,
+   "info": {
+    "temoin": "PROPOSER,ATTENDRE",
+    "alistairAuCachot": "pas de dôme (ACTE4_01_HALTE_DOME)",
+    "lienE4": "pas de dôme (ACTE4_01_HALTE_DOME)",
+    "sansInteretE": "pas de dôme (ACTE4_01_HALTE_DOME)",
+    "alistairRefuse": "pas de dôme (ACTE4_01_HALTE_DOME)",
+    "kaelenFroid": "pas de dôme (ACTE4_01_HALTE_DOME)",
+    "questionIntacte": true,
+    "refermer": "Elenya, Kaelen et Alistair",
+    "sceau": "cohérent"
+   }
+  },
+  {
+   "nom": "Narration 60.8.1 : pas de spoiler Sept, Kaelen perdu absent de FIN_SACRIFICE, décisions R608 relues, pas d’écho Kaelen en solo",
+   "ok": true,
+   "ms": 155,
+   "info": {
+    "sept": "sans révélation",
+    "sacrifice": "OK",
+    "r608": "chaînes et morsure relues",
+    "soloKaelen": "OK",
+    "equilibre": "OK",
+    "bible": "contrat, Kalthar, présence"
+   }
+  },
+  {
+   "nom": "Gameplay 60.8.1 : après RELEVER, SUBMIT n’aboutit plus à une agonie à choix unique",
+   "ok": true,
+   "ms": 160,
+   "info": {
+    "sceau": "pas de mort sur choix unique",
+    "profilFin": "OK"
+   }
+  },
+  {
+   "nom": "Sauvegardes 60.8.0 : nouveau NG+ purge l’ancien run (manifeste, fragments), scène inconnue → ERREUR_SCENE → sortie (revue sauvegardes B1, M1)",
+   "ok": true,
+   "ms": 191,
+   "info": {
+    "ngplus": "ancien run purgé, aucun fragment orphelin, classique intact",
+    "sceneInconnue": "ERREUR_SCENE → ACTE1_01_REVEIL (dernière connue : ACTE1_01_REVEIL)"
+   }
+  },
+  {
+   "nom": "Récit 57 : instabilité ≠ possession, Silas/Veyra/Alistair/Séraphine, dilemme politique, NG+ par le savoir (positifs + négatifs)",
+   "ok": true,
+   "ms": 153,
+   "info": {
+    "instabilitePossession": "OK",
+    "silas": "OK",
+    "veyra": "OK",
+    "alistair": "OK",
+    "seraphine": "OK 5 scènes",
+    "politique": "OK",
+    "ngplus": "OK"
+   }
+  },
+  {
+   "nom": "Les 9 parcours exigés (solo, Kaelen, Alistair, rupture, pause/réparation, instabilité, possession, domination, NG+) rejoués de bout en bout",
+   "ok": true,
+   "ms": 1507,
+   "info": {
+    "solo": "FIN_SOLO (106 choix)",
+    "kaelen": "FIN_OMBRE (131 choix)",
+    "alistair": "FIN_ECLAIREUR (119 choix)",
+    "rupture": "FIN_SERAPHINE (122 choix)",
+    "pause": "GAME_OVER_SCELLEE (114 choix)",
+    "instabilite": "FIN_SOLO (104 choix)",
+    "possession": "FIN_BRISEE (116 choix)",
+    "domination": "FIN_DOMINATION (118 choix)",
+    "ngplus": "NG_FIN_AMOUR (25 choix)"
+   }
+  },
+  {
+   "nom": "Récit 58 : branches réelles (Alistair, Silas, Veyra, Trône, épilogue), romances et solo approfondis, NG+ recadré",
+   "ok": true,
+   "ms": 152,
+   "info": {
+    "alistairBranche": "OK",
+    "branchesTrone": "OK",
+    "epilogueVillage": "OK",
+    "romances": "OK",
+    "ngplus": "OK",
+    "veyra_temoin": "OK"
+   }
+  },
+  {
+   "nom": "Interface 55 : voix retirée, musique/SFX gardés, plein écran proposé sans blocage",
+   "ok": true,
+   "ms": 107,
+   "info": {
+    "fichiers": 42,
+    "ok": true
+   }
+  },
+  {
+   "nom": "Assets : inventaire des URLs (hors ligne)",
+   "ok": true,
+   "ms": 10,
+   "info": "441 URLs (liste : tests/assets-urls.txt)"
+  },
+  {
+   "nom": "Page assemblée : aucun script avalé par une balise <style> non fermée (corrigé en 53.3.0)",
+   "ok": true,
+   "ms": 41,
+   "info": "tous les scripts actifs ; fenêtres et cadre du récit présents"
+  },
+  {
+   "nom": "Préchargement : indices des scènes suivantes fournis par le serveur",
+   "ok": true,
+   "ms": 68,
+   "info": "68/115 scènes avec indices"
+  },
+  {
+   "nom": "Typographie : apostrophes typographiques dans les textes des scènes",
+   "ok": true,
+   "ms": 1,
+   "info": "aucune apostrophe droite restante"
+  },
+  {
+   "nom": "Serveur (60.1) : diagnostic refusé en production, jeu ouvert",
+   "ok": true,
+   "ms": 410,
+   "info": {
+    "prodDiag": 403,
+    "prodJeu": 200,
+    "localDiag": 200
+   }
+  },
+  {
+   "nom": "Déploiement (60.1) : DEPLOIEMENT.md cite chaque fichier, includes présents",
+   "ok": true,
+   "ms": 94,
+   "info": {
+    "fichiers": 46,
+    "includes": 12
+   }
+  },
+  {
+   "nom": "Source unique (60.1) : aucune copie hors du dossier canonique",
+   "ok": true,
+   "ms": 101,
+   "info": {
+    "canonique": "elenya-refonte-52.4/project",
+    "copies": 0
+   }
+  },
+  {
+   "nom": "Sauvegardes 60.1 : 90 états figés (dont NG+), format gardé, NG+ après game over",
+   "ok": true,
+   "ms": 271,
+   "info": {
+    "choixAjoutes": [
+     "solo#67 ACTE3_03B_RESISTANCE:R608_CONTRECHANT",
+     "pause#37 ACTE2_06_NUIT_AUBERGE:HALTE603",
+     "pause#112 ACTE4_01_HALTE_DOME:R608_ARCHE",
+     "pause#118 SCEAU_DERNIER_SOUFFLE:TENUE",
+     "instabilite#37 ACTE2_10_RAVIN:R608_FEN_LIGNE",
+     "possession#37 ACTE2_06_NUIT_AUBERGE:HALTE603",
+     "possession#82 ACTE3_09B_BIVOUAC_TEMPETE:STELE603",
+     "domination#67 ACTE3_01_TENSION_GROUPE:R608_MORSURE"
+    ],
+    "retraitsDomination6032": [
+     "alistair#123 ACTE4_09_TRONE_EBENE:FIN_ECLAIREUR",
+     "possession#82 ACTE3_09B_BIVOUAC_TEMPETE:POLY_REPARER"
+    ],
+    "sauvegardes60": "90 (dont NG+ 3)",
+    "format": "inchangé (22 clés, schemaVersion 50)",
+    "finEfface": "FIN_BRISEE",
+    "ngplusApresGameOver": "OK"
+   }
+  },
+  {
+   "nom": "Interface 60.1 : aucun reliquat de narration vocale (ids, fonctions, CSS)",
+   "ok": true,
+   "ms": 108,
+   "info": {
+    "reliquats": 0
+   }
+  },
+  {
+   "nom": "Échos rares 60.1 : un parcours fixe par écho rare trouvé (rejoué, texte affiché)",
+   "ok": true,
+   "ms": 2650,
+   "info": {
+    "rares": 155,
+    "rejoues": 72,
+    "sansRoute": 83
+   }
+  },
+  {
+   "nom": "Images affichées 60.1 : inventaire PC/mobile/préchargement (hors ligne)",
+   "ok": true,
+   "ms": 241,
+   "info": {
+    "urls": 66,
+    "enLigne": false,
+    "echecs": []
+   }
+  },
+  {
+   "nom": "Verrou Apps Script 60.2 (simulation GAS) : diagnostics privés, porte serverDevDiagnostic (drapeau + utilisateur autorisé), admin Reviewer propriétaire seul",
+   "ok": true,
+   "ms": 266,
+   "info": {
+    "publiques": [
+     "Date",
+     "_choiceRelationalTarget",
+     "_ctxGauge",
+     "_ctxHasFlag",
+     "_echo",
+     "_parseDynamicText",
+     "_saveKeyForMode",
+     "addItem",
+     "addRep",
+     "applyFlagWriteAliases",
+     "canEnterPoly",
+     "checkRequirements",
+     "clampNumber",
+     "companionPresentE",
+     "companionPresentO",
+     "decrementTimers",
+     "deriveRelationshipStyle",
+     "doGet",
+     "doPost",
+     "enforceCompanionExclusivity",
+     "ensureArray",
+     "ensureNarrativeState",
+     "getRep",
+     "getRouteMode",
+     "hasAllFlags",
+     "hasAnyFlag",
+     "hasItem",
+     "include",
+     "inferChoiceEchoes",
+     "isClassicState",
+     "isNGPlusState",
+     "joinCompanion",
+     "lastClassicEndingFromFlags",
+     "latestNarrativeEcho",
+     "markRelationshipApproach",
+     "migrateFlagSynonyms",
+     "migrateLegacySceneId",
+     "normalizeAssetRef",
+     "normalizeGameState",
+     "normalizeV50State",
+     "onOpen",
+     "openGameModal",
+     "pushUnique",
+     "recomputeNarrativeSeeds",
+     "recordNarrativeEcho",
+     "relationAvailableE",
+     "relationAvailableO",
+     "removeFlagWriteAliases",
+     "removeItem",
+     "resolveSprites",
+     "reviewerBootstrap",
+     "reviewerCreateGrokApiAccess",
+     "reviewerCreateGrokBrowserWriteAccess",
+     "reviewerGetOwnerInfo",
+     "reviewerListAgentApiAccess",
+     "reviewerLoadMyAnnotations",
+     "reviewerRegisterGuest",
+     "reviewerRevokeAgentApiAccess",
+     "reviewerRevokeGrokApiAccess",
+     "reviewerSetup",
+     "reviewerSyncMany",
+     "reviewerSyncScene",
+     "romanceAvailableE",
+     "romanceAvailableO",
+     "secondaryStage",
+     "serverDevDiagnostic",
+     "serverGetBuildInfo",
+     "serverGetExplorer",
+     "serverGetGlobalFlags",
+     "serverGetMainMenu",
+     "serverGetNarrativeMeta",
+     "serverGetPendingScene",
+     "serverLoadGame",
+     "serverProcessChoice",
+     "serverResetGame",
+     "serverResetRun",
+     "serverSaveGame",
+     "serverStartNewGamePlus",
+     "switchCompanion",
+     "updateRelationshipIntegrity"
+    ],
+    "nbPubliques": 80,
+    "diagnosticsPrives": 36,
+    "refus": {
+     "anonymeSansDrapeau": "DIAGNOSTIC_RESERVE_DEV",
+     "anonymeAvecDrapeau": "DIAGNOSTIC_RESERVE_DEV",
+     "proprioSansDrapeau": "DIAGNOSTIC_RESERVE_DEV",
+     "inconnuAvecDrapeau": "DIAGNOSTIC_RESERVE_DEV",
+     "listeAvecDrapeau": "autorisé",
+     "proprioAvecDrapeau": "autorisé",
+     "nomHorsListe": "DIAGNOSTIC_INCONNU"
+    },
+    "adminProprietaireSeul": 7,
+    "limite": "simulation Node, déploiement réel non validé"
+   }
+  },
+  {
+   "nom": "Échos 60.2 : erreurs mémorisées (anti-plantage gardé), journal en dev seulement, imbrication et plafond corrects",
+   "ok": true,
+   "ms": 5423,
+   "info": {
+    "antiPlantage": true,
+    "journalDevSeulement": true,
+    "imbrication": "OK",
+    "affichagesReels": 3661,
+    "erreursReelles": 0
+   }
+  },
+  {
+   "nom": "Sauvegardes 60.2 : cycle complet sauvegarde → stockage → nouveau moteur → chargement → reprise (90 + 115 anciennes), NG+ après les 5 types de game over",
+   "ok": true,
+   "ms": 7374,
+   "info": {
+    "sauvegardes60": "90/90",
+    "sauvegardes5254": "115/115",
+    "ngplusApresGameOver": "VENIN,SURCHARGE,POSSESSION,SIRENE,SCELLEE"
+   }
+  },
+  {
+   "nom": "Morts 60.2 : 5 morts depuis des routes réelles ; céder → GAME_OVER, survivre → retour au jeu avec conséquence",
+   "ok": true,
+   "ms": 1171,
+   "info": {
+    "VENIN": {
+     "agonie": "AGONIE_VENIN",
+     "choixRoute": 75,
+     "survies": {
+      "GELER": {
+       "trone": "visité",
+       "retour": "ACTE3_09B_BIVOUAC_TEMPETE",
+       "scenesEnsuite": 28,
+       "issue": "FIN_CHAOS",
+       "cout": [
+        "volonte-3"
+       ],
+       "drapeaux": [
+        "venin_cauterise",
+        "venin_agonie_gelee_60"
+       ]
+      }
+     }
+    },
+    "SURCHARGE": {
+     "agonie": "AGONIE_SURCHARGE",
+     "choixRoute": 132,
+     "survies": {
+      "RENDRE": {
+       "trone": "visité",
+       "retour": "ACTE4_07_ADIEU_KALTHAR",
+       "scenesEnsuite": 6,
+       "issue": "FIN_HIVER",
+       "cout": [
+        "instabilite-24",
+        "volonte-2"
+       ],
+       "drapeaux": [
+        "surcharge_agonie_rendue_60"
+       ]
+      }
+     }
+    },
+    "POSSESSION": {
+     "agonie": "AGONIE_POSSESSION",
+     "choixRoute": 109,
+     "survies": {
+      "OUVRIR": {
+       "trone": "visité",
+       "retour": "ACTE4_05_ARRIVEE_PORTES_1",
+       "scenesEnsuite": 11,
+       "issue": "FIN_MORTELLE",
+       "cout": [
+        "possession-10",
+        "volonte-2"
+       ],
+       "drapeaux": [
+        "possession_agonie_ouverte_601"
+       ]
+      }
+     }
+    },
+    "SIRENE": {
+     "agonie": "SIRENE_DERNIER_SOUFFLE",
+     "choixRoute": 77,
+     "survies": {
+      "LUTTER": {
+       "trone": "visité",
+       "retour": "ACTE3_04_ENVOUTEMENT",
+       "scenesEnsuite": 40,
+       "issue": "FIN_OMBRE",
+       "cout": [
+        "volonte-1"
+       ],
+       "drapeaux": [
+        "sirene_dernier_souffle_60"
+       ]
+      },
+      "MAIN_TENDUE": {
+       "trone": "visité",
+       "retour": "ACTE3_04_ENVOUTEMENT",
+       "scenesEnsuite": 40,
+       "issue": "FIN_OMBRE",
+       "cout": [
+        "volonte-2"
+       ],
+       "drapeaux": [
+        "sirene_dernier_souffle_60",
+        "sirene_main_tendue_601",
+        "survie_portee_603"
+       ]
+      }
+     }
+    },
+    "SCELLEE": {
+     "agonie": "SCEAU_DERNIER_SOUFFLE",
+     "choixRoute": 101,
+     "survies": {
+      "RELEVER": {
+       "trone": "visité",
+       "retour": "ACTE4_06_MASQUE_TOMBE_2",
+       "scenesEnsuite": 9,
+       "issue": "FIN_CHAOS",
+       "cout": [
+        "volonte-1"
+       ],
+       "drapeaux": [
+        "sceau_dernier_souffle_60"
+       ]
+      },
+      "TENUE": {
+       "trone": "visité",
+       "retour": "ACTE4_06_MASQUE_TOMBE_2",
+       "scenesEnsuite": 9,
+       "issue": "FIN_CHAOS",
+       "cout": [
+        "volonte-2"
+       ],
+       "drapeaux": [
+        "sceau_dernier_souffle_60",
+        "sceau_tenue_601",
+        "survie_portee_603"
+       ]
+      }
+     }
+    }
+   }
+  },
+  {
+   "nom": "Systèmes 60.1 : agonie à deux choix pour chaque catégorie de mort (déclencheur réel, survie, céder), chronologie unique",
+   "ok": true,
+   "ms": 214,
+   "info": {
+    "categories": {
+     "VENIN": "déclencheur → AGONIE_VENIN → survie OK / céder → GAME_OVER_VENIN",
+     "SURCHARGE": "déclencheur → AGONIE_SURCHARGE → survie OK / céder → GAME_OVER_SURCHARGE",
+     "POSSESSION": "déclencheur → AGONIE_POSSESSION → survie OK / céder → GAME_OVER_POSSESSION",
+     "SIRENE": "déclencheur → SIRENE_DERNIER_SOUFFLE → survie OK / céder → GAME_OVER_SIRENE",
+     "SCELLEE": "déclencheur → SCEAU_DERNIER_SOUFFLE → survie OK / céder → GAME_OVER_SCELLEE"
+    },
+    "chronologie": [
+     "trois siècles",
+     "trois cents ans"
+    ]
+   }
+  },
+  {
+   "nom": "Fins 60.1 : 36 routes déterministes rejouées, routes négatives au Trône (solo, ruptures, domination, compagnon absent, refus du trio), Oraya / Alistair / Séraphine",
+   "ok": true,
+   "ms": 5384,
+   "info": {
+    "fins": 36,
+    "rejouees": 36,
+    "sansRoute": [],
+    "negatives": {
+     "solo": "OK (9 choix)",
+     "ruptureO": "OK (6 choix)",
+     "ruptureE": "OK (6 choix)",
+     "domination": "OK (7 choix)",
+     "kaelenAbsent": "OK (5 choix)",
+     "alistairAbsent": "OK (5 choix)",
+     "trioRefuse": "OK (7 choix)"
+    },
+    "oraya": "pardon = 1 choix sur 3",
+    "alistair": "refus sans rupture",
+    "seraphine": "3 textes distincts"
+   }
+  },
+  {
+   "nom": "Fins 60.8.1 : 36 fins à l’identifiant exact (drapeaux, titre, texte propre, aucune famille), non-régression LIBERATION ≠ VIDE",
+   "ok": true,
+   "ms": 5376,
+   "info": {
+    "fins": 36,
+    "textesDistincts": 36,
+    "routesDistinctes": 36
+   }
+  },
+  {
+   "nom": "Budget du lot rapide : 132 s ≤ 180 s",
+   "ok": true,
+   "ms": 0
+  }
+ ]
+}

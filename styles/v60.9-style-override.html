@@ -1,0 +1,85 @@
+<style id="v60.9-style-override">
+/* V60.9 — Restauration prioritaire du style visuel V52 */
+#launch-start-modal,
+.launch-start-panel {
+  border-color: var(--ef-argent, #b9c7de) !important;
+  box-shadow: 0 0 0 1px rgba(185, 199, 222, 0.45) !important;
+}
+.launch-start-panel .display-choice,
+.launch-start-panel .launch-start-actions button {
+  border-color: rgba(185, 199, 222, 0.7) !important;
+  background: rgba(7, 11, 20, 0.82) !important;
+}
+.launch-start-panel .display-choice.active {
+  border-color: var(--ef-givre, #dce8ff) !important;
+  background: rgba(12, 20, 36, 0.88) !important;
+  box-shadow: inset 0 0 0 1px rgba(220, 232, 255, 0.35) !important;
+}
+body {
+  font-family: var(--font-serif, 'Crimson Pro', Georgia, serif) !important;
+  background-color: var(--col-bg, #080912) !important;
+  color: #e6ecf5 !important;
+}
+#vignette {
+  background: radial-gradient(ellipse at center, transparent 42%, rgba(4,5,12, var(--vignette-opacity, 0.40)) 100%) !important;
+}
+body.game-live .choices {
+  max-width: 42% !important;
+  margin-left: auto !important;
+  align-self: flex-end !important;
+}
+@media (max-width: 600px) {
+  body.game-live .choices {
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    max-height: 38vh !important;
+    overflow-y: auto !important;
+  }
+}
+body.game-live .choice-btn {
+  border-radius: 0 !important;
+  border: none !important;
+  background: transparent !important;
+  color: rgba(200,215,255,0.92) !important;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, -2px 0 0 #000, 2px 0 0 #000, 0 -2px 0 #000, 0 2px 0 #000, 0 0 12px #000, 0 4px 15px rgba(0,0,0,0.9) !important;
+}
+body.game-live .choice-btn:hover:not(:disabled) {
+  background: transparent !important;
+  color: #fff !important;
+  transform: translateX(6px);
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, -2px 0 0 #000, 2px 0 0 #000, 0 -2px 0 #000, 0 2px 0 #000, 0 0 15px rgba(140,165,255,0.85) !important;
+}
+/* Restauration panneau narratif V52 : texte cinématique sur image, pas de cadre RPG opaque */
+body.game-live .narrative {
+  background: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  font-style: italic !important;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, -2px 0 0 #000, 2px 0 0 #000, 0 -2px 0 #000, 0 2px 0 #000, 0 0 12px #000, 0 4px 15px rgba(0,0,0,0.9) !important;
+  padding: 10px 20px 20px 20px !important;
+  min-height: 0 !important;
+  max-height: 38vh !important;
+  color: #f0f4ff !important;
+}
+body.game-live .narrative::before,
+body.game-live .givre-cout { display: none !important; }
+body.game-live .narrative::after {
+  display: none !important;
+  content: none !important;
+}
+body.game-live .narrative p {
+  color: #f0f4ff !important;
+  margin-bottom: 12px !important;
+}
+
+body.game-live .choice-btn.active {
+  background: transparent !important;
+  border: 1px solid rgba(185,199,222,.85) !important;
+  box-shadow: 0 0 8px rgba(185,199,222,.45) !important;
+  color: #fff !important;
+}
+#givre-jauge { display: none !important; }
+</style>

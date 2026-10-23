@@ -1,0 +1,29 @@
+{
+ "routesFins": {
+  "FIN_SERAPHINE_LAME": {
+   "rupture": "cible différente",
+   "etat": [],
+   "remplacee": false,
+   "graine": null,
+   "prefixeGarde": null
+  }
+ },
+ "routesFinsB": {},
+ "echos": {},
+ "parcours": {
+  "rupture": {
+   "rupture": "cible différente",
+   "etat": [],
+   "remplacee": true,
+   "graine": 31,
+   "prefixeGarde": 42
+  },
+  "possession": {
+   "rupture": "cible différente",
+   "etat": [],
+   "remplacee": true,
+   "graine": 10,
+   "prefixeGarde": 76
+  }
+ }
+}

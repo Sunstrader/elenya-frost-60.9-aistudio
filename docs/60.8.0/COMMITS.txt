@@ -1,0 +1,12 @@
+08cb6a0 60.8.0 : npm test 49/49, e2e 8/8, état des 36 fins (docs/60.8.0/FINS.md)
+0ae057b 60.8.0 : écrans de fin — bouton ovale étiré et début du texte hors écran corrigés (captures des 36 fins)
+18e3332 60.8.0 : fenêtre FIN_SERAPHINE_LAME élargie (seuil 8), routes réparées, base d'empreinte 60.8.0 mise à jour
+0330d3e 60.8.0 : revue routes (Sceau borné, indice FIN_SERAPHINE_LAME, test aucun lien vers scène fusionnée)
+69f7fa1 60.8.0 : route FIN_SERAPHINE_LAME réparée après rééquilibrage
+8fa98c9 60.8.0 (en cours) : revue sauvegardes B1/M1 corrigés + test, revue choix (drapeaux R608 relus, rééquilibrages), réparation des routes
+61125ed 60.8.0 : fixtures régénérées (routes, parcours, échos), sauvegardes réelles 60.3.2/60.7.0 sur scènes fusionnées, test romance-608, consentement au dôme, échos d'état hors plafond, journal/sac au Codex
+5f987bd 60.8.0 étapes 4-6 : réécritures scenario.md (autel, parvis, corridor), moments romance par événements, journal de route + sac dans le Codex
+66556d5 60.8.0 étape 5 : correctifs romance 60.3.3 (non possible au trio, domination ferme romanceAvailable, amitié ≠ pause, décor bivouac, révocation, Séraphine)
+bd4d6ec 60.8.0 étape 4 : immersion (arrêt avant la frontière, stèles, geôles)
+7d06d4f 60.8.0 étape 3 : rythme (5 fusions, 15 décisions, test rythme-608)
+04d289b 60.8.0 étapes 1-2 : base 60.7.0 (textes) sur 60.3.2, boutons de choix 52.5.4, menu rapide complet

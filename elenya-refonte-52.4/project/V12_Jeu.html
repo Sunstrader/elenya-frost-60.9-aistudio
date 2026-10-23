@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ELENYA — L’Héritage de Primaëlys</title>
+<meta name="description" content="RPG narratif de fantasy à choix, en français : routes, fins multiples, NG+ Le Cycle Brisé, musiques et ambiances.">
+<meta property="og:title" content="ELENYA — L’Héritage de Primaëlys">
+<meta property="og:description" content="RPG narratif de fantasy à choix, en français : routes, fins multiples, NG+ Le Cycle Brisé, musiques et ambiances.">
+<script>
+/* ═══ EF_CONFIG — interrupteurs des nouveautés 53.1.0 à 53.3.0 (true = actif, false = désactivé) ═══
+   Pour désactiver une nouveauté : mets sa valeur à false, enregistre, redéploie.
+   Le jeu reste entièrement fonctionnel avec tout à false (comportement 53.0.0). */
+window.EF_CONFIG = {
+  menuPaysageDefilant: true,   // menu borné à l'écran + défilement en paysage bas (téléphone couché)
+  fondTitreAdapte: true,       // fond de l'écran titre en 1280 px au lieu de 1920 px sur téléphone portrait
+  prechargementSuivant: true,  // précharge en douceur les fonds des scènes suivantes possibles (lot 04)
+  accessibiliteAnnonces: true, // lecteurs d'écran : annonce du texte de chaque scène (lot 10)
+  accessibiliteClavier: true,  // flèches haut/bas pour passer d'un choix à l'autre (lot 10)
+  precedemment: true,          // rappel « Précédemment… » après plus de 8 h de pause (lot 09)
+  cadreRecit: 'reglage',       // cadre du récit en pages (lot 05) : 'reglage' = au choix du joueur dans Paramètres (désactivé par défaut), true = toujours, false = jamais
+  audioMixage: true,           // lot 08 : fondus entre musiques, atténuation pendant la voix, réglages Musique/Ambiances/Effets
+  langueInterface: 'fr'        // langue des menus : 'fr' ou 'en' (le récit reste en français) (lot 11)
+};
+(function(){ try { for (var k in window.EF_CONFIG) if (window.EF_CONFIG[k] === false) document.documentElement.classList.add('ef-off-' + k); } catch (e) {} })();
+window.efCadreRecitActif = function(){ try { var c = window.EF_CONFIG && window.EF_CONFIG.cadreRecit; if (c === true) return true; if (c === false) return false; return localStorage.getItem('ef_cadre_recit') === '1'; } catch (e) { return false; } };
+</script>
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Pro:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+
+<?!= include('Styles_Game'); ?>
+<?!= include('JRPG_UI_Styles'); ?>
+<?!= include('Cinematic_UI_Styles'); ?>
+<?!= include('Cinematic_UI_Landscape'); ?>
+</head>
+<body>
+<?!= include('Game_Interface'); ?>
+<?!= include('Character_Modular_Runtime'); ?>
+<?!= include('Character_3D_Runtime'); ?>
+<?!= include('Scripts_Game'); ?>
+<?!= include('Scripts_Refonte'); ?>
+<?!= include('JRPG_UI_Runtime'); ?>
+<?!= include('Cinematic_UI_Runtime'); ?>
+<?!= include('Cinematic_UI_InputGuard'); ?>
+</body>
+</html>

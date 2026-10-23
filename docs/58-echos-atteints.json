@@ -1,0 +1,207 @@
+{
+ "total": 217,
+ "textes": 172,
+ "atteints": 140,
+ "jamais": [
+  "LIEN_MARCHE_1 :: gs => gs.hasFlag('ton_sarcasme')",
+  "ACTE2_10_RAVIN :: gs => gs.hasFlag('bivouac_glace_joute')",
+  "ACTE2_10_RAVIN :: gs => gs.hasFlag('joute_intime_E')",
+  "ACTE2_10_RAVIN :: gs => gs.hasFlag('joute_intime_O')",
+  "ACTE3_01_FRONTIERE_1 :: gs => gs.hasFlag('joute_silence_O')",
+  "ACTE3_01_FRONTIERE_1 :: gs => gs.hasFlag('kaelen_libre_choisir')",
+  "ACTE3_08_MISE_AU_POINT :: gs => gs.hasFlag('romance_deferred_O_closed')",
+  "ACTE3_08_MISE_AU_POINT :: gs => gs.hasFlag('romance_deferred_E_closed')",
+  "ACTE3_10_ACCUEIL_CULTE_1 :: gs => gs.hasFlag('solo_choix_definitif_acte3')",
+  "ACTE3_10_ACCUEIL_CULTE_1 :: gs => gs.hasFlag('solo_oraya_dette_rendue')",
+  "ACTE3_10_ACCUEIL_CULTE_1 :: gs => gs.hasFlag('solo_oraya_limite_retrouvee')",
+  "ACTE3_10_ACCUEIL_CULTE_1 :: gs => gs.hasFlag('solo_oraya_passe_brise')",
+  "ACTE3_13_ARTEFACT :: gs => gs.hasFlag('frag_k_jeune_couronne')",
+  "ACTE4_05_ARRIVEE_PORTES_1 :: gs => gs.hasFlag('trio_refuse')",
+  "ACTE4_05_ARRIVEE_PORTES_1 :: gs => gs.hasFlag('veyra_fragment_brise')",
+  "ACTE4_09_TRONE_EBENE :: gs => gs.hasFlag('alistair_lettre_montree')",
+  "NGP_02_NEUF_ECHOS :: gs => gs.hasFlag('ngplus_couronne_reprise')",
+  "NGP_02_NEUF_ECHOS :: gs => gs.hasFlag('ngplus_refus_initial')",
+  "NGP_04_FRESQUE_REPRISE :: gs => gs.hasFlag('ngplus_colere_kalthar')",
+  "VEYRA_PACTE :: gs => gs.hasFlag('veyra_graine_57')",
+  "VEYRA_PACTE :: gs => gs.hasFlag('veyra_question_57')",
+  "ACTE4_06B_TEST_KAELEN :: gs => gs.hasFlag('kaelen_main_partagee_tempete')",
+  "ACTE3_08_MISE_AU_POINT :: gs => possedee57_(gs)",
+  "ACTE3_08_MISE_AU_POINT :: gs => possedee57_(gs) && companionPresentO(gs)",
+  "ACTE4_09_ISSUES_SECONDAIRES :: gs => gs.hasFlag('veyra_egale_57')",
+  "ACTE4_09_TRONE_EBENE :: gs => gs.hasFlag('seraphine_rompue_57')",
+  "ACTE5_01_LENDEMAIN :: gs => gs.hasFlag('grain_ordonne_57')",
+  "ACTE5_01_LENDEMAIN :: gs => possedee57_(gs)",
+  "ACTE4_09_ISSUES_SECONDAIRES :: gs => gs.hasFlag('veyra_temoin_58')",
+  "ACTE4_09_ISSUES_SECONDAIRES :: gs => gs.hasFlag('veyra_refus_58')",
+  "ACTE4_09_TRONE_EBENE :: gs => gs.hasFlag('seraphine_nom_brule_58')",
+  "ACTE5_01_LENDEMAIN :: gs => gs.hasFlag('seraphine_nom_garde_58')"
+ ],
+ "sugg": {
+  "ton_sarcasme": [],
+  "bivouac_glace_joute": [],
+  "joute_intime_E": [],
+  "joute_intime_O": [],
+  "joute_silence_O": [],
+  "kaelen_libre_choisir": [
+   [
+    "ACTE4_01_DEPART_VILLAGE",
+    12
+   ],
+   [
+    "ACTE3_13_ARTEFACT",
+    8
+   ],
+   [
+    "ACTE4_09_TRONE_EBENE",
+    8
+   ],
+   [
+    "ACTE3_10_ACCUEIL_CULTE_1",
+    6
+   ]
+  ],
+  "romance_deferred_O_closed": [],
+  "romance_deferred_E_closed": [],
+  "solo_choix_definitif_acte3": [],
+  "solo_oraya_dette_rendue": [],
+  "solo_oraya_limite_retrouvee": [],
+  "solo_oraya_passe_brise": [],
+  "frag_k_jeune_couronne": [],
+  "trio_refuse": [],
+  "veyra_fragment_brise": [],
+  "alistair_lettre_montree": [
+   [
+    "ACTE4_02_CHOIX_CHAMBRE",
+    1
+   ],
+   [
+    "ACTE4_03_SPICY_ALISTAIR",
+    1
+   ],
+   [
+    "ACTE4_AVEU_PARALLELE",
+    1
+   ],
+   [
+    "ACTE4_05_ARRIVEE_PORTES_1",
+    1
+   ]
+  ],
+  "ngplus_couronne_reprise": [],
+  "ngplus_refus_initial": [],
+  "ngplus_colere_kalthar": [],
+  "veyra_graine_57": [
+   [
+    "ACTE4_01_DEPART_VILLAGE",
+    88
+   ],
+   [
+    "ACTE2_09_MARCHE_BLANCHE",
+    83
+   ],
+   [
+    "ACTE2_08_MATIN_AUBERGE",
+    81
+   ],
+   [
+    "ACTE2_12_NUIT_ISOLEE",
+    80
+   ]
+  ],
+  "veyra_question_57": [
+   [
+    "ACTE2_12_NUIT_ISOLEE",
+    34
+   ],
+   [
+    "ACTE2_08_MATIN_AUBERGE",
+    33
+   ],
+   [
+    "LIEN_MARCHE_2",
+    33
+   ],
+   [
+    "LIEN_MARCHE_2B",
+    33
+   ]
+  ],
+  "kaelen_main_partagee_tempete": [
+   [
+    "ACTE3_10_ACCUEIL_CULTE_1",
+    10
+   ],
+   [
+    "ACTE4_01_DEPART_VILLAGE",
+    10
+   ],
+   [
+    "SILAS_MEMOIRES",
+    9
+   ],
+   [
+    "ACTE3_13_ARTEFACT",
+    7
+   ]
+  ],
+  "veyra_egale_57": [],
+  "seraphine_rompue_57": [],
+  "grain_ordonne_57": [],
+  "veyra_temoin_58": [],
+  "veyra_refus_58": [],
+  "seraphine_nom_brule_58": [],
+  "seraphine_nom_garde_58": [
+   [
+    "ACTE4_01_DEPART_VILLAGE",
+    2
+   ],
+   [
+    "ACTE4_09_TRONE_EBENE",
+    2
+   ],
+   [
+    "SERAPHINE_COEUR_3_LAME",
+    1
+   ],
+   [
+    "ACTE4_01_HALTE_DOME",
+    1
+   ]
+  ]
+ },
+ "statut": {
+  "LIEN_MARCHE_1 :: ton_sarcasme": "rare",
+  "ACTE2_10_RAVIN :: bivouac_glace_joute": "rare",
+  "ACTE2_10_RAVIN :: joute_intime_E": "rare",
+  "ACTE2_10_RAVIN :: joute_intime_O": "rare",
+  "ACTE3_01_FRONTIERE_1 :: joute_silence_O": "rare",
+  "ACTE3_01_FRONTIERE_1 :: kaelen_libre_choisir": "rare",
+  "ACTE3_08_MISE_AU_POINT :: romance_deferred_O_closed": "rare",
+  "ACTE3_08_MISE_AU_POINT :: romance_deferred_E_closed": "rare",
+  "ACTE3_10_ACCUEIL_CULTE_1 :: solo_choix_definitif_acte3": "rare",
+  "ACTE3_10_ACCUEIL_CULTE_1 :: solo_oraya_dette_rendue": "rare",
+  "ACTE3_10_ACCUEIL_CULTE_1 :: solo_oraya_limite_retrouvee": "rare",
+  "ACTE3_10_ACCUEIL_CULTE_1 :: solo_oraya_passe_brise": "rare",
+  "ACTE3_13_ARTEFACT :: frag_k_jeune_couronne": "rare",
+  "ACTE4_05_ARRIVEE_PORTES_1 :: trio_refuse": "rare",
+  "ACTE4_05_ARRIVEE_PORTES_1 :: veyra_fragment_brise": "rare",
+  "ACTE4_09_TRONE_EBENE :: alistair_lettre_montree": "rare",
+  "NGP_02_NEUF_ECHOS :: ngplus_couronne_reprise": "rare",
+  "NGP_02_NEUF_ECHOS :: ngplus_refus_initial": "rare",
+  "NGP_04_FRESQUE_REPRISE :: ngplus_colere_kalthar": "rare",
+  "VEYRA_PACTE :: veyra_graine_57": "rare",
+  "VEYRA_PACTE :: veyra_question_57": "rare",
+  "ACTE4_06B_TEST_KAELEN :: kaelen_main_partagee_tempete": "rare",
+  "ACTE3_08_MISE_AU_POINT :: gs => possedee57_(gs)": "rare",
+  "ACTE3_08_MISE_AU_POINT :: gs => possedee57_(gs) && companionPresen": "rare",
+  "ACTE4_09_ISSUES_SECONDAIRES :: veyra_egale_57": "rare",
+  "ACTE4_09_TRONE_EBENE :: seraphine_rompue_57": "rare",
+  "ACTE5_01_LENDEMAIN :: grain_ordonne_57": "rare",
+  "ACTE5_01_LENDEMAIN :: gs => possedee57_(gs)": "rare",
+  "ACTE4_09_ISSUES_SECONDAIRES :: veyra_temoin_58": "rare",
+  "ACTE4_09_ISSUES_SECONDAIRES :: veyra_refus_58": "rare",
+  "ACTE4_09_TRONE_EBENE :: seraphine_nom_brule_58": "rare",
+  "ACTE5_01_LENDEMAIN :: seraphine_nom_garde_58": "rare"
+ },
+ "inaccessibles": []
+}

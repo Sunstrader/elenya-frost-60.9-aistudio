@@ -1,0 +1,51 @@
+{
+ "DATABASE_Acte1.js": {
+  "Personne ne": 10,
+  "Pas encore": 9,
+  "le reste": 7,
+  "quelque chose": 6,
+  "silence": 17
+ },
+ "DATABASE_Acte2.js": {
+  "Personne ne": 7,
+  "Pas encore": 4,
+  "le reste": 4,
+  "quelque chose": 12,
+  "silence": 20
+ },
+ "DATABASE_Acte3.js": {
+  "Personne ne": 7,
+  "Pas encore": 3,
+  "le reste": 6,
+  "quelque chose": 6,
+  "silence": 26
+ },
+ "DATABASE_Acte4.js": {
+  "Personne ne": 2,
+  "Pas encore": 6,
+  "le reste": 6,
+  "quelque chose": 5,
+  "silence": 14
+ },
+ "DATABASE_Acte5.js": {
+  "Personne ne": 3,
+  "Pas encore": 0,
+  "le reste": 1,
+  "quelque chose": 0,
+  "silence": 1
+ },
+ "DATABASE_Secondary.js": {
+  "Personne ne": 9,
+  "Pas encore": 9,
+  "le reste": 0,
+  "quelque chose": 13,
+  "silence": 12
+ },
+ "DATABASE_Relations.js": {
+  "Personne ne": 5,
+  "Pas encore": 3,
+  "le reste": 6,
+  "quelque chose": 7,
+  "silence": 20
+ }
+}
