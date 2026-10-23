@@ -53,7 +53,7 @@ OK   Typographie : apostrophes typographiques dans les textes des scènes (0.0 s
 OK   Serveur (60.1) : diagnostic refusé en production, jeu ouvert (0.4 s) — {"prodDiag":403,"prodJeu":200,"localDiag":200}
 OK   Déploiement (60.1) : DEPLOIEMENT.md cite chaque fichier, includes présents (0.1 s) — {"fichiers":46,"includes":12}
 OK   Source unique (60.1) : aucune copie hors du dossier canonique (0.1 s) — {"canonique":"elenya-refonte-52.4/project","copies":0}
-OK   Sauvegardes 60.1 : 90 états figés (dont NG+), format gardé, NG+ après game over (0.3 s) — {"choixAjoutes":["pause#118 SCEAU_DERNIER_SOUFFLE:TENUE"],"sauvegardes60":"90 (dont NG+ 3)","format":"inchangé (22 cl�
+OK   Sauvegardes 60.1 : 90 états figés (dont NG+), format gardé, NG+ après game over (0.3 s) — {"choixAjoutes":["pause#118 SCEAU_DERNIER_SOUFFLE:TENUE"],"sauvegardes60":"90 (dont NG+ 3)","format":"inchangé (22 cl�
 OK   Interface 60.1 : aucun reliquat de narration vocale (ids, fonctions, CSS) (0.1 s) — {"reliquats":0}
 OK   Échos rares 60.1 : un parcours fixe par écho rare trouvé (rejoué, texte affiché) (3.0 s) — {"rares":155,"rejoues":72,"sansRoute":83}
 OK   Images affichées 60.1 : inventaire PC/mobile/préchargement (hors ligne) (0.3 s) — {"urls":66,"enLigne":false,"echecs":[]}
